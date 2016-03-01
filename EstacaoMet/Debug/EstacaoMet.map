@@ -1,61 +1,61 @@
 Archive member included because of file (symbol)
 
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                               ./SHTx/i2c.o (gpio_dir)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o) (pin_function)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (serial_getc)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed::FilePath::FilePath(char const*))
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed::FileSystemLike::opendir())
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o) (pin_function)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (serial_getc)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed::FilePath::FilePath(char const*))
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed::FileSystemLike::opendir())
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
                               ./nRF24L01P/nRF24L01P.o (mbed::InterruptIn::InterruptIn(PinName))
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
                               ./nRF24L01P/nRF24L01P.o (mbed::SPI::SPI(PinName, PinName, PinName, PinName))
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
                               ./Logger/Logger.o (mbed::Serial::Serial(PinName, PinName, char const*))
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o) (mbed::SerialBase::SerialBase(PinName, PinName))
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o) (mbed::Stream::close())
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o) (mbed::SerialBase::SerialBase(PinName, PinName))
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o) (mbed::Stream::close())
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
                               ./nRF24L01P/nRF24L01P.o (mbed_assert_internal)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
                               ./nRF24L01P/nRF24L01P.o (error)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
                               ./SHTx/i2c.o (gpio_init_in)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed_interface_connected)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (pinmap_pinout)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (mbed_interface_connected)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (pinmap_pinout)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
                               ./Logger/Logger.o (time)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (semihost_exit)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (semihost_exit)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
                               ./nRF24L01P/nRF24L01P.o (wait_us)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o) (gpio_irq_init)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o) (rtc_init)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o) (spi_init)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o) (us_ticker_read)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (mbed::FileLike::~FileLike())
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o) (mbed::FileBase::~FileBase())
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o) (us_ticker_irq_handler)
-C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o) (ticker_irq_handler)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o) (gpio_irq_init)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o) (rtc_init)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o) (spi_init)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o) (us_ticker_read)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (mbed::FileLike::~FileLike())
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o) (mbed::FileBase::~FileBase())
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o) (us_ticker_irq_handler)
+C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o) (ticker_irq_handler)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
                               ./GPS/GPS.o (__aeabi_f2d)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixdfsi.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o) (__aeabi_d2iz)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o) (__aeabi_d2iz)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_truncdfsf2.o)
                               ./GPS/GPS.o (__aeabi_d2f)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubsf3.o)
@@ -65,9 +65,9 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_cmpsf2.o)
                               ./GPS/GPS.o (__aeabi_fcmplt)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixsfsi.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o) (__aeabi_f2iz)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o) (__aeabi_f2iz)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o (__aeabi_uldivmod)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o (__aeabi_uldivmod)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_dvmd_tls.o)
@@ -77,19 +77,19 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(bpabi.o) (__udivdi3)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-abs.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (abs)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (abs)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-calloc.o)
                               ./ConfigFile/ConfigList.o (calloc)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-callocr.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-calloc.o) (_calloc_r)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-errno.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (__errno)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (__errno)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fclose.o)
                               ./Logger/Logger.o (fclose)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fflush.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fclose.o) (__sflush_r)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fgetc.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (fgetc)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (fgetc)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fgets.o)
                               ./ConfigFile/ConfigFile.o (fgets)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-findfp.o)
@@ -99,9 +99,9 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fprintf.o)
                               ./Logger/Logger.o (fprintf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fputc.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (fputc)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (fputc)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fputs.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (fputs)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (fputs)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-freer.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fclose.o) (_free_r)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fseek.o)
@@ -117,7 +117,7 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fflush.o) (_global_impure_ptr)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-init.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o (__libc_init_array)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o (__libc_init_array)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-lcltime.o)
                               ./Logger/Logger.o (localtime)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-lcltime_r.o)
@@ -131,13 +131,13 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memchr.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fgets.o) (memchr)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memcpy.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (memcpy)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o) (memcpy)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memmove.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fvwrite.o) (memmove)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-memset.o)
                               ./Logger/Logger.o (memset)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mktime.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o) (mktime)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o) (mktime)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mlock.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-freer.o) (__malloc_lock)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-month_lengths.o)
@@ -157,11 +157,11 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-sbrkr.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-freer.o) (_sbrk_r)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-setbuf.o)
-                              C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (setbuf)
+                              C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o (setbuf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-setvbuf.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-setbuf.o) (setvbuf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-sprintf.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (sprintf)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (sprintf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-sscanf.o)
                               ./GPS/GPS.o (sscanf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-stdio.o)
@@ -177,9 +177,9 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strlen.o)
                               ./Logger/Logger.o (strlen)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strncmp.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o) (strncmp)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o) (strncmp)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strncpy.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o) (strncpy)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o) (strncpy)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtok.o)
                               ./Logger/Logger.o (strtok)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-strtok_r.o)
@@ -205,7 +205,7 @@ c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
                               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-fprintf.o) (_vfprintf_r)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfscanf.o)
-                              C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (vfscanf)
+                              C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o) (vfscanf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vsnprintf.o)
                               ./Logger/Logger.o (vsnprintf)
 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-wbuf.o)
@@ -321,7 +321,7 @@ Allocating common symbols
 Common symbol       size              file
 
 errno               0x4               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-reent.o)
-stdio_uart          0x8               C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+stdio_uart          0x8               C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
 __end_of_heap       0x4               c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
 
 Discarded input sections
@@ -537,7 +537,7 @@ Discarded input sections
  .text          0x00000000        0x0 ./SHTx/i2c.o
  .data          0x00000000        0x0 ./SHTx/i2c.o
  .bss           0x00000000        0x0 ./SHTx/i2c.o
- .rodata        0x00000000       0x6f ./SHTx/i2c.o
+ .rodata        0x00000000       0x72 ./SHTx/i2c.o
  .text.gpio_write
                 0x00000000       0x48 ./SHTx/i2c.o
  .text.gpio_read
@@ -650,8 +650,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./SHTx/i2c.o
  .debug_macro   0x00000000       0x2e ./SHTx/i2c.o
  .debug_macro   0x00000000       0x28 ./SHTx/i2c.o
- .debug_line    0x00000000      0xbca ./SHTx/i2c.o
- .debug_str     0x00000000    0x1013d ./SHTx/i2c.o
+ .debug_line    0x00000000      0xbd6 ./SHTx/i2c.o
+ .debug_str     0x00000000    0x10140 ./SHTx/i2c.o
  .comment       0x00000000       0x71 ./SHTx/i2c.o
  .debug_frame   0x00000000      0x350 ./SHTx/i2c.o
  .ARM.attributes
@@ -822,8 +822,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./SHTx/sht15.o
  .debug_macro   0x00000000       0x2e ./SHTx/sht15.o
  .debug_macro   0x00000000       0x28 ./SHTx/sht15.o
- .debug_line    0x00000000      0xb69 ./SHTx/sht15.o
- .debug_str     0x00000000    0x10521 ./SHTx/sht15.o
+ .debug_line    0x00000000      0xb75 ./SHTx/sht15.o
+ .debug_str     0x00000000    0x10524 ./SHTx/sht15.o
  .comment       0x00000000       0x71 ./SHTx/sht15.o
  .debug_frame   0x00000000      0x2b4 ./SHTx/sht15.o
  .ARM.attributes
@@ -984,8 +984,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x28 ./PowerControl/EthernetPowerControl.o
  .debug_macro   0x00000000       0xff ./PowerControl/EthernetPowerControl.o
  .debug_macro   0x00000000      0x560 ./PowerControl/EthernetPowerControl.o
- .debug_line    0x00000000      0xafe ./PowerControl/EthernetPowerControl.o
- .debug_str     0x00000000    0x119bd ./PowerControl/EthernetPowerControl.o
+ .debug_line    0x00000000      0xb0a ./PowerControl/EthernetPowerControl.o
+ .debug_str     0x00000000    0x119c0 ./PowerControl/EthernetPowerControl.o
  .comment       0x00000000       0x71 ./PowerControl/EthernetPowerControl.o
  .debug_frame   0x00000000      0x18c ./PowerControl/EthernetPowerControl.o
  .ARM.attributes
@@ -1153,8 +1153,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./Logger/Logger.o
  .debug_macro   0x00000000       0x28 ./Logger/Logger.o
  .debug_macro   0x00000000       0x10 ./Logger/Logger.o
- .debug_line    0x00000000      0xaf8 ./Logger/Logger.o
- .debug_str     0x00000000    0x104a4 ./Logger/Logger.o
+ .debug_line    0x00000000      0xb04 ./Logger/Logger.o
+ .debug_str     0x00000000    0x104a7 ./Logger/Logger.o
  .comment       0x00000000       0x71 ./Logger/Logger.o
  .debug_frame   0x00000000      0x228 ./Logger/Logger.o
  .ARM.attributes
@@ -1297,8 +1297,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./GPS/GPS.o
  .debug_macro   0x00000000       0x2e ./GPS/GPS.o
  .debug_macro   0x00000000       0x28 ./GPS/GPS.o
- .debug_line    0x00000000      0x9f9 ./GPS/GPS.o
- .debug_str     0x00000000     0xfdc5 ./GPS/GPS.o
+ .debug_line    0x00000000      0xa05 ./GPS/GPS.o
+ .debug_str     0x00000000     0xfdc8 ./GPS/GPS.o
  .comment       0x00000000       0x71 ./GPS/GPS.o
  .debug_frame   0x00000000       0xa8 ./GPS/GPS.o
  .ARM.attributes
@@ -1446,8 +1446,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./FaultInjector/FaultInjector.o
  .debug_macro   0x00000000       0x2e ./FaultInjector/FaultInjector.o
  .debug_macro   0x00000000       0x28 ./FaultInjector/FaultInjector.o
- .debug_line    0x00000000      0x9ff ./FaultInjector/FaultInjector.o
- .debug_str     0x00000000     0xfa8b ./FaultInjector/FaultInjector.o
+ .debug_line    0x00000000      0xa0b ./FaultInjector/FaultInjector.o
+ .debug_str     0x00000000     0xfa8e ./FaultInjector/FaultInjector.o
  .comment       0x00000000       0x71 ./FaultInjector/FaultInjector.o
  .debug_frame   0x00000000       0xec ./FaultInjector/FaultInjector.o
  .ARM.attributes
@@ -1599,8 +1599,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./ConfigFile/ConfigFile.o
  .debug_macro   0x00000000       0x2e ./ConfigFile/ConfigFile.o
  .debug_macro   0x00000000       0x28 ./ConfigFile/ConfigFile.o
- .debug_line    0x00000000      0xa42 ./ConfigFile/ConfigFile.o
- .debug_str     0x00000000     0xfcbb ./ConfigFile/ConfigFile.o
+ .debug_line    0x00000000      0xa4e ./ConfigFile/ConfigFile.o
+ .debug_str     0x00000000     0xfcbe ./ConfigFile/ConfigFile.o
  .comment       0x00000000       0x71 ./ConfigFile/ConfigFile.o
  .debug_frame   0x00000000       0xcc ./ConfigFile/ConfigFile.o
  .ARM.attributes
@@ -1756,8 +1756,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./ConfigFile/ConfigList.o
  .debug_macro   0x00000000       0x2e ./ConfigFile/ConfigList.o
  .debug_macro   0x00000000       0x28 ./ConfigFile/ConfigList.o
- .debug_line    0x00000000      0xb50 ./ConfigFile/ConfigList.o
- .debug_str     0x00000000     0xfb89 ./ConfigFile/ConfigList.o
+ .debug_line    0x00000000      0xb5c ./ConfigFile/ConfigList.o
+ .debug_str     0x00000000     0xfb8c ./ConfigFile/ConfigList.o
  .comment       0x00000000       0x71 ./ConfigFile/ConfigList.o
  .debug_frame   0x00000000      0x1a4 ./ConfigFile/ConfigList.o
  .ARM.attributes
@@ -1828,7 +1828,7 @@ Discarded input sections
  .text          0x00000000        0x0 ./main.o
  .data          0x00000000        0x0 ./main.o
  .bss           0x00000000        0x0 ./main.o
- .rodata        0x00000000       0x6f ./main.o
+ .rodata        0x00000000       0x72 ./main.o
  .text.gpio_write
                 0x00000000       0x48 ./main.o
  .text._ZN4mbed10DigitalOutC2E7PinName
@@ -1897,605 +1897,605 @@ Discarded input sections
  .debug_macro   0x00000000       0x5e ./main.o
  .debug_macro   0x00000000       0x2e ./main.o
  .debug_macro   0x00000000       0x28 ./main.o
- .text          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
- .data          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
- .bss           0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
- .text          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
- .data          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
- .bss           0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+ .text          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+ .data          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+ .bss           0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+ .text          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+ .data          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+ .bss           0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
  .text.NVIC_GetVector
-                0x00000000       0x10 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
- .group         0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .data          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .bss           0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x10 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+ .group         0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .data          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .bss           0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed10FileHandle4flenEv
-                0x00000000       0x34 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x34 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed10FileHandleD2Ev
-                0x00000000       0x2c C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x2c C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed10FileHandleD0Ev
-                0x00000000       0x34 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text._open    0x00000000       0xf8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.remove   0x00000000       0x30 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.rename   0x00000000       0x54 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.tmpnam   0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.tmpfile  0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.opendir  0x00000000       0x40 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.readdir  0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x34 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._open    0x00000000       0xf8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.remove   0x00000000       0x30 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.rename   0x00000000       0x54 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.tmpnam   0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.tmpfile  0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.opendir  0x00000000       0x40 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.readdir  0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.closedir
-                0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.rewinddir
-                0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.telldir  0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.seekdir  0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text.mkdir    0x00000000       0x38 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.telldir  0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.seekdir  0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.mkdir    0x00000000       0x38 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
-                0x00000000        0xc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0xc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.mbed_main
-                0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.mbed_sdk_init
-                0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.__wrap_main
-                0x00000000       0x14 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x14 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text.__cxa_pure_virtual
-                0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed26mbed_set_unbuffered_streamEP7__sFILE
-                0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed9mbed_getcEP7__sFILE
-                0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .text._ZN4mbed9mbed_getsEPciP7__sFILE
-                0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .rodata.__stdin_name
-                0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .rodata.__stderr_name
-                0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .rodata.__stdout_name
-                0x00000000        0x8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000        0x8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .rodata._ZTVN4mbed10FileHandleE
-                0x00000000       0x30 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x00000000       0x30 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .rodata.str1.4
-                0x00000000       0x10 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .data          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .bss           0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+                0x00000000       0x10 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .data          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .bss           0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
  .text.__aeabi_atexit
-                0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .text._Znwj    0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .text._Znaj    0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .text._ZdlPv   0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .text._ZdaPv   0x00000000        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .text          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
- .data          0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
- .bss           0x00000000        0x0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+                0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .text._Znwj    0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .text._Znaj    0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .text._ZdlPv   0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .text._ZdaPv   0x00000000        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .text          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+ .data          0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+ .bss           0x00000000        0x0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
  .text.SystemCoreClockUpdate
-                0x00000000       0xb4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000       0xb4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_free
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_irq_handler
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_irq_set
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_readable
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_clear
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_pinout_tx
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_break_set
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.serial_break_clear
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePathC2EPKc
-                0x00000000       0x58 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000       0x58 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath8fileNameEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath12isFileSystemEv
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath10fileSystemEv
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath6isFileEv
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath4fileEv
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .text._ZN4mbed8FilePath6existsEv
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FilePath.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed9DirHandle7telldirEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed9DirHandle7seekdirEl
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed9DirHandleD2Ev
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLike6removeEPKc
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLike6renameEPKcS2_
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLike7opendirEPKc
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLike5mkdirEPKcj
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandle8closedirEv
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandle7telldirEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandle7seekdirEl
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandle9rewinddirEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandleD2Ev
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed9DirHandleD0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandleD0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed13BaseDirHandle7readdirEv
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLikeD2Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLikeD0Ev
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLikeC2EPKc
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .text._ZN4mbed14FileSystemLike7opendirEv
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .rodata._ZTVN4mbed9DirHandleE
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .rodata._ZTVN4mbed13BaseDirHandleE
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .rodata._ZTVN4mbed14FileSystemLikeE
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileSystemLike.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptInD2Ev
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptInD0Ev
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn12_irq_handlerEm14gpio_irq_event
-                0x00000000       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptInC2E7PinName
-                0x00000000       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn4readEv
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn4modeE7PinMode
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn4riseEPFvvE
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn4fallEPFvvE
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn10enable_irqEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIn11disable_irqEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .text._ZN4mbed11InterruptIncviEv
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .rodata._ZTVN4mbed11InterruptInE
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .rodata.str1.4
-                0x00000000       0x80 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+                0x00000000       0x80 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(InterruptIn.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPID2Ev
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPID0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPIC2E7PinNameS1_S1_S1_
-                0x00000000       0x4c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x4c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPI6aquireEv
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPI6formatEii
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPI9frequencyEi
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .text._ZN4mbed3SPI5writeEi
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .bss._ZN4mbed3SPI6_ownerE
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .rodata._ZTVN4mbed3SPIE
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .group         0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SPI.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .group         0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed10SerialBaseD2Ev
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed10SerialBaseD0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6Serial5_getcEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZThn64_N4mbed6Serial5_getcEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6Serial5_putcEi
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZThn64_N4mbed6Serial5_putcEi
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6SerialD2Ev
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6SerialD1Ev
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6SerialD0Ev
-                0x00000000       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .text._ZN4mbed6SerialC2E7PinNameS1_PKc
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .rodata._ZTVN4mbed10SerialBaseE
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .rodata._ZTVN4mbed6SerialE
-                0x00000000       0x60 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+                0x00000000       0x60 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Serial.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBaseD2Ev
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase12_irq_handlerEm9SerialIrq
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBaseD0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBaseC2E7PinNameS1_
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase4baudEi
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase6formatEiNS0_6ParityEi
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase8readableEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase9writeableEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase6attachEPFvvENS0_7IrqTypeE
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase10_base_getcEv
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase10_base_putcEi
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase10send_breakEv
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .text._ZN4mbed10SerialBase16set_flow_controlENS0_4FlowE7PinNameS2_
-                0x00000000       0x40 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x40 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .rodata._ZTVN4mbed10SerialBaseE
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(SerialBase.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream5closeEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream5writeEPKvj
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4readEPvj
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream5lseekEli
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream6isattyEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream5fsyncEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4flenEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6StreamD2Ev
-                0x00000000       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZThn4_N4mbed6StreamD1Ev
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6StreamD0Ev
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZThn4_N4mbed6StreamD0Ev
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6StreamC2EPKc
-                0x00000000       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4putcEi
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4putsEPKc
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4getcEv
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream4getsEPci
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream6printfEPKcz
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream5scanfEPKcz
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream7vprintfEPKcSt9__va_list
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .text._ZN4mbed6Stream6vscanfEPKcSt9__va_list
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .rodata._ZTVN4mbed6StreamE
-                0x00000000       0x48 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000       0x48 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .rodata.str1.4
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(Stream.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
  .text.gpio_init_in_ex
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
  .text.gpio_init_inout
-                0x00000000       0xb0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0xb0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_interface_reset
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_interface_uid
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_interface_disconnect
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_interface_powerdown
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_reset
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_uid
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .text.mbed_mac_address
-                0x00000000       0x54 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000000       0x54 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .rodata.str1.4
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
  .text.pinmap_find_function
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
  .text.pinmap_function
-                0x00000000       0x34 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .text.time     0x00000000       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000       0x34 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .text.time     0x00000000       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .text.set_time
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .text.clock    0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .text.clock    0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .text.attach_rtc
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .data._rtc_init
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .data._rtc_isenabled
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .data._rtc_read
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .data._rtc_write
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_time.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_open
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_close
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_write
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_read
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_istty
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_seek
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_ensure
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_flen
-                0x00000000       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_remove
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_rename
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_uid
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_reset
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_vbus
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_powerdown
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .text.semihost_disabledebug
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.handle_interrupt_in
-                0x00000000      0x118 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000      0x118 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.gpio_irq_init
-                0x00000000       0x70 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x70 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.gpio_irq_free
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.gpio_irq_set
-                0x00000000       0xd8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0xd8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.gpio_irq_enable
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .text.gpio_irq_disable
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .bss.irq_handler
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .bss.channel_ids
-                0x00000000       0xc0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0xc0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .rodata.str1.4
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_irq_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .text.rtc_init
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .text.rtc_free
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .text.rtc_isenabled
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .text.rtc_read
-                0x00000000       0x40 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000       0x40 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .text.rtc_write
-                0x00000000       0x58 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+                0x00000000       0x58 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(rtc_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_init
-                0x00000000       0xf0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0xf0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_free
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_format
-                0x00000000       0x70 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x70 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_frequency
-                0x00000000       0xd0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0xd0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_master_write
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_slave_receive
-                0x00000000       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_slave_read
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_slave_write
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .text.spi_busy
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .rodata.PinMap_SPI_MISO
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .rodata.PinMap_SPI_SCLK
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .rodata.str1.4
-                0x00000000       0xe0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0xe0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .rodata.PinMap_SPI_MOSI
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .rodata.PinMap_SPI_SSEL
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
- .group         0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(spi_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+ .group         0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZN4mbed10FileHandle4flenEv
-                0x00000000       0x34 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x34 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZN4mbed8FileLikeD2Ev
-                0x00000000       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZThn4_N4mbed8FileLikeD1Ev
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZN4mbed8FileLikeD0Ev
-                0x00000000       0x2c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x2c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZThn4_N4mbed8FileLikeD0Ev
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .text._ZN4mbed8FileLikeC2EPKc
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .rodata._ZTVN4mbed8FileLikeE
-                0x00000000       0x40 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+                0x00000000       0x40 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileLike.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBaseD2Ev
-                0x00000000       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBaseD0Ev
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBaseC2EPKcNS_8PathTypeE
-                0x00000000       0x28 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x28 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBase6lookupEPKcj
-                0x00000000       0x3c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x3c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBase3getEi
-                0x00000000       0x20 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x20 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBase7getNameEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .text._ZN4mbed8FileBase11getPathTypeEv
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .rodata._ZTVN4mbed8FileBaseE
-                0x00000000       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .bss._ZN4mbed8FileBase5_headE
-                0x00000000        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+                0x00000000        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
  .ARM.attributes
-                0x00000000       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                0x00000000       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(FileBase.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
  .text.get_us_ticker_data
-                0x00000000        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
- .text          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
- .data          0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
- .bss           0x00000000        0x0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+ .text          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+ .data          0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+ .bss           0x00000000        0x0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .text.ticker_set_handler
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .text.ticker_insert_event
-                0x00000000       0x48 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000       0x48 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .text.ticker_remove_event
-                0x00000000       0x48 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000       0x48 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .text.ticker_read
-                0x00000000        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .text.ticker_get_next_timestamp
-                0x00000000       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x00000000       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .data          0x00000000        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_fixdfsi.o)
@@ -3482,12 +3482,12 @@ LOAD ./FaultInjector/FaultInjector.o
 LOAD ./ConfigFile/ConfigFile.o
 LOAD ./ConfigFile/ConfigList.o
 LOAD ./main.o
-LOAD C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
-LOAD C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
-LOAD C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
-LOAD C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
-LOAD C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
-LOAD C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a
+LOAD C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+LOAD C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+LOAD C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+LOAD C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+LOAD C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+LOAD C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a
 START GROUP
 LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a
 LOAD c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
@@ -3503,18 +3503,18 @@ END GROUP
                 0x10008000                __top_RamLoc32 = 0x10008000
                 0x20084000                __top_RamAHB32 = 0x20084000
 
-.text           0x00000000     0x7750
+.text           0x00000000     0x7758
  FILL mask 0xff
  *(.isr_vector)
- .isr_vector    0x00000000       0xcc C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .isr_vector    0x00000000       0xcc C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
                 0x00000000                g_pfnVectors
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x7758 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x7760 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x100000c8 ADDR (.data)
                 0x000000d4        0x4 LONG 0x8a4 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x7758 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x7760 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -3527,7 +3527,7 @@ END GROUP
                 0x000000f4                __section_table_end = .
  *(.after_vectors*)
  .after_vectors
-                0x000000f4       0xd0 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+                0x000000f4       0xd0 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
                 0x000000f4                NMI_Handler
                 0x000000f8                HardFault_Handler
                 0x000000fc                MemManage_Handler
@@ -3596,144 +3596,144 @@ END GROUP
  .text._GLOBAL__sub_I_myled
                 0x000002e4       0x10 ./main.o
  .text.mbed_die
-                0x000002f4      0x10c C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+                0x000002f4      0x10c C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
                 0x000002f4                mbed_die
  .text.NVIC_SetVector
-                0x00000400       0x3c C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+                0x00000400       0x3c C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
                 0x00000400                NVIC_SetVector
  .text._ZL11init_serialv.part.0
-                0x0000043c       0x18 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .text._close   0x00000454       0x2c C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x0000043c       0x18 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._close   0x00000454       0x2c C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x00000454                _close
- .text._write   0x00000480       0x50 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._write   0x00000480       0x50 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x00000480                _write
- .text._read    0x000004d0       0x4c C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._read    0x000004d0       0x4c C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x000004d0                _read
- .text._isatty  0x0000051c       0x28 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._isatty  0x0000051c       0x28 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x0000051c                _isatty
- .text._lseek   0x00000544       0x28 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._lseek   0x00000544       0x28 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x00000544                _lseek
- .text._fstat   0x0000056c       0x20 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text._fstat   0x0000056c       0x20 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x0000056c                _fstat
- .text.exit     0x0000058c       0x30 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .text.exit     0x0000058c       0x30 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
                 0x0000058c                exit
  .text.SystemInit
-                0x000005bc       0xb8 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+                0x000005bc       0xb8 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
                 0x000005bc                SystemInit
  .text.gpio_set
-                0x00000674       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x00000674       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                 0x00000674                gpio_set
  .text.gpio_init
-                0x000006a4       0x30 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x000006a4       0x30 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                 0x000006a4                gpio_init
  .text.gpio_mode
-                0x000006d4        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x000006d4        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                 0x000006d4                gpio_mode
  .text.gpio_dir
-                0x000006dc       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x000006dc       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                 0x000006dc                gpio_dir
  .text.pin_function
-                0x00000720       0x50 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+                0x00000720       0x50 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
                 0x00000720                pin_function
  .text.pin_mode
-                0x00000770       0x78 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+                0x00000770       0x78 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
                 0x00000770                pin_mode
  .text.uart2_irq
-                0x000007e8       0x64 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x000007e8       0x64 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x000007e8                uart2_irq
  .text.serial_irq_set_internal
-                0x0000084c       0xcc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x0000084c       0xcc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .text.uart0_irq
-                0x00000918       0x64 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000918       0x64 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000918                uart0_irq
  .text.uart3_irq
-                0x0000097c       0x6c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x0000097c       0x6c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x0000097c                uart3_irq
  .text.uart1_irq
-                0x000009e8       0x64 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x000009e8       0x64 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x000009e8                uart1_irq
  .text.serial_baud
-                0x00000a4c      0x244 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000a4c      0x244 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000a4c                serial_baud
  .text.serial_format
-                0x00000c90       0x78 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000c90       0x78 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000c90                serial_format
  .text.serial_getc
-                0x00000d08       0x38 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000d08       0x38 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000d08                serial_getc
  .text.serial_writable
-                0x00000d40       0x74 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000d40       0x74 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000d40                serial_writable
  .text.serial_putc
-                0x00000db4       0x34 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000db4       0x34 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000db4                serial_putc
  .text.serial_set_flow_control
-                0x00000de8      0x12c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000de8      0x12c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000de8                serial_set_flow_control
  .text.serial_init
-                0x00000f14      0x1bc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00000f14      0x1bc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x00000f14                serial_init
  .text.mbed_assert_internal
-                0x000010d0       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+                0x000010d0       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
                 0x000010d0                mbed_assert_internal
- .text.error    0x000010e8       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+ .text.error    0x000010e8       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
                 0x000010e8                error
  .text.gpio_init_in
-                0x0000110c       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x0000110c       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
                 0x0000110c                gpio_init_in
  .text.gpio_init_out
-                0x00001130       0x44 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x00001130       0x44 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
                 0x00001130                gpio_init_out
  .text.gpio_init_out_ex
-                0x00001174       0x54 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x00001174       0x54 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
                 0x00001174                gpio_init_out_ex
  .text.mbed_interface_connected
-                0x000011c8        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x000011c8        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
                 0x000011c8                mbed_interface_connected
  .text.pinmap_pinout
-                0x000011cc       0x40 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x000011cc       0x40 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
                 0x000011cc                pinmap_pinout
  .text.pinmap_merge
-                0x0000120c       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x0000120c       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
                 0x0000120c                pinmap_merge
  .text.pinmap_find_peripheral
-                0x00001230       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x00001230       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
                 0x00001230                pinmap_find_peripheral
  .text.pinmap_peripheral
-                0x0000124c       0x34 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x0000124c       0x34 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
                 0x0000124c                pinmap_peripheral
  .text.semihost_exit
-                0x00001280       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00001280       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
                 0x00001280                semihost_exit
  .text.semihost_connected
-                0x00001298       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x00001298       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
                 0x00001298                semihost_connected
- .text.wait_us  0x000012a8       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .text.wait_us  0x000012a8       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
                 0x000012a8                wait_us
- .text.wait     0x000012c0       0x18 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .text.wait     0x000012c0       0x18 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
                 0x000012c0                wait
- .text.wait_ms  0x000012d8        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .text.wait_ms  0x000012d8        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
                 0x000012d8                wait_ms
  .text.us_ticker_init
-                0x000012e4       0x68 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x000012e4       0x68 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x000012e4                us_ticker_init
  .text.us_ticker_read
-                0x0000134c       0x1c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x0000134c       0x1c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x0000134c                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x00001368       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x00001368       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x00001368                us_ticker_set_interrupt
  .text.us_ticker_disable_interrupt
-                0x0000137c       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x0000137c       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x0000137c                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x0000138c        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x0000138c        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x0000138c                us_ticker_clear_interrupt
  .text.us_ticker_irq_handler
-                0x00001398        0xc C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                0x00001398        0xc C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
                 0x00001398                us_ticker_irq_handler
  .text.ticker_irq_handler
-                0x000013a4       0x48 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x000013a4       0x48 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
                 0x000013a4                ticker_irq_handler
  .text          0x000013ec      0x370 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
                 0x000013ec                __aeabi_drsub
@@ -3978,138 +3978,139 @@ END GROUP
                 0x00006cb8                __aeabi_dcmpge
                 0x00006ccc                __aeabi_dcmpgt
  *(.rodata .rodata.*)
- .rodata        0x00006ce0      0x3ad ./nRF24L01P/nRF24L01P.o
- *fill*         0x0000708d        0x3 
+ .rodata        0x00006ce0      0x3b1 ./nRF24L01P/nRF24L01P.o
+ *fill*         0x00007091        0x3 
  .rodata.str1.4
-                0x00007090       0x80 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+                0x00007094       0x80 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
  .rodata.str1.4
-                0x00007110       0x7a C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x00007114       0x7a C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
                                  0x94 (size before relaxing)
- *fill*         0x0000718a        0x2 
+ *fill*         0x0000718e        0x2 
  .rodata.str1.4
-                0x0000718c       0x64 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+                0x00007190       0x64 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
                                  0x78 (size before relaxing)
  .rodata.PinMap_UART_RTS
-                0x000071f0       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x000071f4       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .rodata.CSWTCH.24
-                0x00007214       0x10 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00007218       0x10 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .rodata.PinMap_UART_RX
-                0x00007224       0x6c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00007228       0x6c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .rodata.str1.4
-                0x00007290      0x1d0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00007294      0x1d0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                                 0x1e8 (size before relaxing)
  .rodata.PinMap_UART_TX
-                0x00007460       0x6c C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x00007464       0x6c C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .rodata.PinMap_UART_CTS
-                0x000074cc       0x24 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x000074d0       0x24 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .rodata.str1.4
-                0x000074f0       0x31 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+                0x000074f4       0x31 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
                                  0x34 (size before relaxing)
  .rodata.str1.4
-                0x00000000       0x80 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
- *fill*         0x00007521        0x3 
+                0x00000000       0x80 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+ *fill*         0x00007525        0x3 
  .rodata.str1.4
-                0x00007524       0x66 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x00007528       0x66 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
                                  0x68 (size before relaxing)
- *fill*         0x0000758a        0x2 
+ *fill*         0x0000758e        0x2 
  .rodata.us_interface
-                0x0000758c       0x14 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                0x00007590       0x14 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
  .rodata.us_data
-                0x000075a0        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                0x000075a4        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
  .rodata.str1.4
-                0x000075a8        0x2 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
- *fill*         0x000075aa        0x2 
+                0x000075ac        0x2 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+ *fill*         0x000075ae        0x2 
  .rodata._global_impure_ptr
-                0x000075ac        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
-                0x000075ac                _global_impure_ptr
+                0x000075b0        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x000075b0                _global_impure_ptr
  .rodata.zeroes.6926
-                0x000075b0       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x000075b4       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x000075c0       0x42 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
- *fill*         0x00007602        0x2 
+                0x000075c4       0x42 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+ *fill*         0x00007606        0x2 
  .rodata.blanks.6925
-                0x00007604       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x00007608       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x00007614       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
+                0x00007618       0x10 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
  .rodata.str1.4
-                0x00007624        0xc c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
+                0x00007628        0xc c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
                                  0x12 (size before relaxing)
+ *fill*         0x00007634        0x4 
  .rodata.__mprec_tens
-                0x00007630       0xc8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
-                0x00007630                __mprec_tens
+                0x00007638       0xc8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+                0x00007638                __mprec_tens
  .rodata.p05.5302
-                0x000076f8        0xc c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
- *fill*         0x00007704        0x4 
+                0x00007700        0xc c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+ *fill*         0x0000770c        0x4 
  .rodata.__mprec_bigtens
-                0x00007708       0x28 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
-                0x00007708                __mprec_bigtens
-                0x00007730                . = ALIGN (0x4)
-                0x00007730                . = ALIGN (0x4)
+                0x00007710       0x28 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+                0x00007710                __mprec_bigtens
+                0x00007738                . = ALIGN (0x4)
+                0x00007738                . = ALIGN (0x4)
  *(.init)
- .init          0x00007730        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crti.o
-                0x00007730                _init
- .init          0x00007734        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtn.o
-                0x0000773c                . = ALIGN (0x4)
-                0x0000773c                __preinit_array_start = .
+ .init          0x00007738        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crti.o
+                0x00007738                _init
+ .init          0x0000773c        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtn.o
+                0x00007744                . = ALIGN (0x4)
+                0x00007744                __preinit_array_start = .
  *(.preinit_array)
-                0x0000773c                __preinit_array_end = .
-                0x0000773c                . = ALIGN (0x4)
-                0x0000773c                __init_array_start = .
+                0x00007744                __preinit_array_end = .
+                0x00007744                . = ALIGN (0x4)
+                0x00007744                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0000773c        0x4 ./main.o
- .init_array    0x00007740        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
-                0x00007744                __init_array_end = .
+ .init_array    0x00007744        0x4 ./main.o
+ .init_array    0x00007748        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
+                0x0000774c                __init_array_end = .
  *(.fini)
- .fini          0x00007744        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crti.o
-                0x00007744                _fini
- .fini          0x00007748        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtn.o
-                0x00007750                . = ALIGN (0x4)
+ .fini          0x0000774c        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crti.o
+                0x0000774c                _fini
+ .fini          0x00007750        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtn.o
+                0x00007758                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00007750                . = ALIGN (0x4)
+                0x00007758                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
 
-.glue_7         0x00007750        0x0
+.glue_7         0x00007758        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00007750        0x0
+.glue_7t        0x00007758        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00007750        0x0
+.vfp11_veneer   0x00007758        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00007750        0x0
+.v4_bx          0x00007758        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00007750        0x0
+.iplt           0x00007758        0x0
  .iplt          0x00000000        0x0 ./nRF24L01P/nRF24L01P.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00007750                __exidx_start = .
+                0x00007758                __exidx_start = .
 
-.ARM.exidx      0x00007750        0x8
+.ARM.exidx      0x00007758        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00007750        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00007758        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00007758        0x8 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00007760        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x00007758                __exidx_end = .
-                0x00007758                _etext = .
+                0x00007760                __exidx_end = .
+                0x00007760                _etext = .
 
-.rel.dyn        0x00007758        0x0
+.rel.dyn        0x00007760        0x0
  .rel.iplt      0x00000000        0x0 ./nRF24L01P/nRF24L01P.o
 
-.eh_frame       0x00007758        0x0
- .eh_frame      0x00007758        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
+.eh_frame       0x00007760        0x0
+ .eh_frame      0x00007760        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
 
-.data_RAM2      0x2007c000        0x0 load address 0x00007758
+.data_RAM2      0x2007c000        0x0 load address 0x00007760
  FILL mask 0xff
  *(.data.$RAM2*)
  *(.data.$RamAHB32*)
@@ -4118,13 +4119,13 @@ END GROUP
 .uninit_RESERVED
  *(.bss.$RESERVED*)
 
-.data           0x100000c8      0x8a4 load address 0x00007758
+.data           0x100000c8      0x8a4 load address 0x00007760
  FILL mask 0xff
                 0x100000c8                _data = .
  *(vtable)
  *(.data*)
  .data.SystemCoreClock
-                0x100000c8        0x4 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+                0x100000c8        0x4 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
                 0x100000c8                SystemCoreClock
  *fill*         0x100000cc        0x4 
  .data.impure_data
@@ -4153,10 +4154,10 @@ END GROUP
                 0x1000096c                . = ALIGN (0x4)
                 0x1000096c                _edata = .
 
-.igot.plt       0x1000096c        0x0 load address 0x00007ffc
+.igot.plt       0x1000096c        0x0 load address 0x00008004
  .igot.plt      0x00000000        0x0 ./nRF24L01P/nRF24L01P.o
 
-.jcr            0x1000096c        0x0 load address 0x00007ffc
+.jcr            0x1000096c        0x0 load address 0x00008004
  .jcr           0x1000096c        0x0 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -4175,18 +4176,18 @@ END GROUP
  .bss.myled     0x1000096c       0x18 ./main.o
                 0x1000096c                myled
  .bss._ZL11filehandles
-                0x10000984      0x100 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x10000984      0x100 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .bss.stdio_uart_inited
-                0x10000a84        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x10000a84        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x10000a84                stdio_uart_inited
  .bss.irq_handler
-                0x10000a88        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x10000a88        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .bss.uart_data
-                0x10000a8c       0xe0 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x10000a8c       0xe0 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .bss.us_ticker_inited
-                0x10000b6c        0x4 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x10000b6c        0x4 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
                 0x10000b6c                us_ticker_inited
- .bss.events    0x10000b70        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+ .bss.events    0x10000b70        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
  .bss.__malloc_max_total_mem
                 0x10000b78        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mallocr.o)
                 0x10000b78                __malloc_max_total_mem
@@ -4201,7 +4202,7 @@ END GROUP
                 0x10000b84                __malloc_current_mallinfo
  .bss           0x10000bac       0x1c c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\crtbegin.o
  *(COMMON)
- COMMON         0x10000bc8        0x8 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+ COMMON         0x10000bc8        0x8 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
                 0x10000bc8                stdio_uart
  COMMON         0x10000bd0        0x4 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-reent.o)
                 0x10000bd0                errno
@@ -4308,45 +4309,45 @@ OUTPUT(EstacaoMet.axf elf32-littlearm)
  .debug_macro   0x00003cd6       0x9a ./nRF24L01P/nRF24L01P.o
  .debug_macro   0x00003d70      0x54c ./main.o
 
-.debug_line     0x00000000     0x1a2f
- .debug_line    0x00000000      0xecd ./nRF24L01P/nRF24L01P.o
- .debug_line    0x00000ecd      0xa14 ./main.o
- .debug_line    0x000018e1      0x101 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
- .debug_line    0x000019e2       0x4d c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+.debug_line     0x00000000     0x1a47
+ .debug_line    0x00000000      0xed9 ./nRF24L01P/nRF24L01P.o
+ .debug_line    0x00000ed9      0xa20 ./main.o
+ .debug_line    0x000018f9      0x101 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+ .debug_line    0x000019fa       0x4d c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_check_heap.o)
 
-.debug_str      0x00000000    0x11459
- .debug_str     0x00000000    0x111d1 ./nRF24L01P/nRF24L01P.o
-                              0x11534 (size before relaxing)
- .debug_str     0x000111d1       0xeb ./main.o
-                               0xff68 (size before relaxing)
- .debug_str     0x000112bc      0x178 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
+.debug_str      0x00000000    0x1145c
+ .debug_str     0x00000000    0x111d4 ./nRF24L01P/nRF24L01P.o
+                              0x11537 (size before relaxing)
+ .debug_str     0x000111d4       0xeb ./main.o
+                               0xff6b (size before relaxing)
+ .debug_str     0x000112bf      0x178 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
                                 0x211 (size before relaxing)
- .debug_str     0x00011434       0x25 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_check_heap.o)
+ .debug_str     0x00011437       0x25 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_check_heap.o)
                                 0x15f (size before relaxing)
 
 .comment        0x00000000       0xe0
  .comment       0x00000000       0x70 ./nRF24L01P/nRF24L01P.o
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 ./main.o
- .comment       0x00000070       0x70 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+ .comment       0x00000070       0x70 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
                                  0x71 (size before relaxing)
- .comment       0x00000000       0x71 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
- .comment       0x00000000       0x71 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
- .comment       0x00000000       0x71 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
- .comment       0x00000000       0x71 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
- .comment       0x00000000       0x71 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+ .comment       0x00000000       0x71 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+ .comment       0x00000000       0x71 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+ .comment       0x00000000       0x71 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+ .comment       0x00000000       0x71 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+ .comment       0x00000000       0x71 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_sbrk.o)
  .comment       0x00000000       0x71 c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m\libcr_newlib_nohost.a(_cr_check_heap.o)
 
@@ -4357,41 +4358,41 @@ OUTPUT(EstacaoMet.axf elf32-littlearm)
  .ARM.attributes
                 0x00000033       0x33 ./main.o
  .ARM.attributes
-                0x00000066       0x33 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
+                0x00000066       0x33 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o
  .ARM.attributes
-                0x00000099       0x33 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
+                0x00000099       0x33 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o
  .ARM.attributes
-                0x000000cc       0x33 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
+                0x000000cc       0x33 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o
  .ARM.attributes
-                0x000000ff       0x33 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
+                0x000000ff       0x33 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o
  .ARM.attributes
-                0x00000132       0x33 C:/EstacaoMeteo/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
+                0x00000132       0x33 C:/-WeatherStation/EstacaoMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o
  .ARM.attributes
-                0x00000165       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
+                0x00000165       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio_api.o)
  .ARM.attributes
-                0x00000198       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
+                0x00000198       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap.o)
  .ARM.attributes
-                0x000001cb       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
+                0x000001cb       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(serial_api.o)
  .ARM.attributes
-                0x000001fe       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
+                0x000001fe       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(assert.o)
  .ARM.attributes
-                0x00000231       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
+                0x00000231       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(error.o)
  .ARM.attributes
-                0x00000264       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
+                0x00000264       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(gpio.o)
  .ARM.attributes
-                0x00000297       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
+                0x00000297       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(mbed_interface.o)
  .ARM.attributes
-                0x000002ca       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
+                0x000002ca       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(pinmap_common.o)
  .ARM.attributes
-                0x000002fd       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
+                0x000002fd       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(semihost_api.o)
  .ARM.attributes
-                0x00000330       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
+                0x00000330       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(wait_api.o)
  .ARM.attributes
-                0x00000363       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
+                0x00000363       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker.o)
  .ARM.attributes
-                0x00000396       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
+                0x00000396       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(us_ticker_api.o)
  .ARM.attributes
-                0x000003c9       0x33 C:\EstacaoMeteo\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
+                0x000003c9       0x33 C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\libmbed.a(ticker_api.o)
  .ARM.attributes
                 0x000003fc       0x1d c:/nxp/lpcxpresso_7.9.2_493/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
