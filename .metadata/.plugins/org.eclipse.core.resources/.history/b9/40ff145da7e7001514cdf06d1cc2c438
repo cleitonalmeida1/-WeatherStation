@@ -1,0 +1,65 @@
+/*
+ * WeatherStation.h
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#ifndef WEATHERSTATION_H_
+#define WEATHERSTATION_H_
+
+#include "mbed.h"
+#include "ConfigFile.h"
+#include "EthernetPowerControl.h"
+#include "GPS.h"
+#include "Logger.h"
+#include "nRF24L01P.h"
+#include "sht15.hpp"
+class WeatherStation {
+public:
+	typedef void (WeatherStation::*Action)();
+
+	typedef enum {
+		CONFIGURING = 0, CONFIGURED, READ_SENSORS, SAVE_DATA, SEND
+	} States;
+
+	typedef enum _Energy {
+		POWER, OFF
+	} Energy;
+
+	/**
+	 * Get an instance of WeatherStation object.
+	 * Singleton Pattern.
+	 */
+	static WeatherStation *getInstance();
+
+	/**
+	 * Start weather station actions (readings, send).
+	 */
+	void start();
+
+	/**
+	 * Destroy the WeatherStation object.
+	 */
+	virtual void destroy();
+
+	void config();
+	void blinkLED(int led, uint8_t qtdPiscar, int intervalo);
+	void powerGPS(Energy opt);
+	void powerBattery(Energy opt);
+	void powerMbed(Energy opt);
+	void send();
+	void saveData();
+	void readSensors();
+
+	void setState(States state);
+
+	WeatherStation();
+
+	virtual ~WeatherStation();
+
+private:
+	Action actions[5];
+};
+
+#endif /* WEATHERSTATION_H_ */

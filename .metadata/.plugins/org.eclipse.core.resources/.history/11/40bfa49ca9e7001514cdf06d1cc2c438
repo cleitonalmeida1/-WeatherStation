@@ -1,0 +1,200 @@
+/*
+ * WeatherStation.cpp
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#include <WeatherStation.h>
+
+WeatherStation::WeatherStation() :
+		fs(FILESYSTEM_NAME), logger(FILEPATH_LOG, false), gps(p13, p14) {
+	// TODO Auto-generated constructor stub
+
+}
+
+WeatherStation::~WeatherStation() {
+	// TODO Auto-generated destructor stub
+}
+
+void WeatherStation::destroy() {
+	this->~WeatherStation();
+}
+
+WeatherStation* WeatherStation::getInstance() {
+	static WeatherStation *station = NULL;
+
+	if (station == NULL)
+		station = new WeatherStation();
+
+	return station;
+}
+
+void WeatherStation::start() {
+
+	long processtime, tm;
+
+	while (true) {
+
+		reloadWatchdog();
+
+		if (isTimeToRead()) {
+
+			processtime = tm = time(NULL);
+
+			logger.log("TIME A: %ld", processtime);
+
+			readSensors();
+
+			if (!saveData())
+				logger.err("Unable to save the data.");
+
+			tm = time(NULL);
+
+			logger.log("TIME B: %ld", tm);
+
+			processtime = tm - processtime;
+
+			logger.log("Process time: %ld", processtime);
+
+			//Injetar falhas
+		}
+
+		if (isTimeToSend()) {
+			if (!send())
+				logger.warn("Unable to send the data.");
+		}
+
+		if (cfg.getReadingInterval() >= 60)
+			Sleep();
+		else
+			wait(0.5);
+	}
+}
+
+void WeatherStation::init() {
+
+	/* Load configuration */
+	cfg.loadFromFile(FILEPATH_CONFIG);
+
+	/* Save configuration */
+	cfg.saveToFile(FILEPATH_CONFIG,
+			"# Weather station without implementing fault tolerance");
+
+	/* Reset by watchdog */
+	if ((LPC_WDT->WDMOD >> 2) & 1) {
+
+		logger.log("Reset by watchdog."); /* XXX: The log time may be incorrect */
+
+		/* Blink LED 2 */
+		blinkLED(LED2, 10, 100);
+
+	} else {
+
+		logger.log("Reset by power-button."); /* XXX: The log time may be incorrect */
+
+		/* Blink LED 1 */
+		blinkLED(LED1, 10, 100);
+	}
+
+	config();
+}
+
+void WeatherStation::config() {
+
+	logger.log("config() - initializing configuration.");
+
+	powerMbed (POWER_ON); 	// Power on mbed
+	powerGPS (POWER_OFF); 	// Power off GPS
+
+	PHY_PowerDown(); 		// Disable ethernet to reduce consumption
+	configTimer();			// Configures timer
+
+	wdt.kick(cfg.getWatchdogTime());	// Configures watchdog timer
+
+	logger.log("config() - successfully configured.");
+}
+
+bool WeatherStation::saveInfoFile() {
+
+	FILE *fp = fopen(FILEPATH_INFO, "w"); // Se o arquivo existir, grava por cima.
+
+	if (fp == NULL)
+		return false;
+
+	fprintf(fp, "Parameter \t Unit \t Min value \t Max value\n");
+
+	fprintf(fp, "Air temperature \t degrees C \t ? \t ?\n");
+	fprintf(fp, "Air humidity \t %% U.R. \t ? \t ?\n");
+	fprintf(fp, "Rainfall \t mm \t 0.0 \t ?\n");
+	fprintf(fp, "Wind speed \t m/s \t 0.0 \t ?\n");
+	fprintf(fp, "Soil humidity \t Epsilon root \t 1.1 \t 5.54\n");
+	fprintf(fp, "Soil temperature \t degrees C \t 5.0 \t 50.0\n");
+	fprintf(fp, "Solar radiation \t W/m2 \t 0.0 \t 1500\n");
+	fprintf(fp, "Leaf wetness \t kohms \t 1.0 \t 3000\n");
+	fprintf(fp, "Battery voltage \t Volts \t 0.0 \t 15.0\n\n");
+
+	fprintf(fp, "Serial Number = \t\t %d\n", SERIAL_NUMBER);
+	fprintf(fp, "Firmware version = \t %s \t %s \t %s\n", __TIME__, __DATE__,
+	__FILE__);
+
+#ifdef GPS_ENABLE
+	if (readGPS())
+	fprintf(fp, "Latitude = %f \t Longitude= %f\n", gps.latitude, gps.longitude);
+	else
+	fprintf(fp, "Latitude = ? \t Longitude= \t ?\n");
+#endif
+
+	fclose(fp);
+
+	return true;
+}
+
+void WeatherStation::reloadWatchdog() {
+
+	wdt.kick();
+
+	blinkLED(LED3, 1, 50);
+}
+
+bool WeatherStation::isTimeToRead() {
+
+	struct tm *timest;
+	time_t time_sec;
+	static bool reading = false;
+	int tmval;
+
+	time(&time_sec);
+	timest = localtime(&time_sec);
+
+	tmval = (cfg.getReadingInterval() >= 60) ? timest->tm_min : timest->tm_sec;
+
+	if (tmval % (int) cfg.getReadingInterval())
+		reading = false;
+	else if (!reading)
+		reading = true;
+	else
+		return false;
+
+	return reading;
+}
+
+bool WeatherStation::isTimeToSend() {
+
+	struct tm *timest;
+	time_t time_sec;
+	static bool sending = false;
+
+	time(&time_sec);
+	timest = localtime(&time_sec);
+
+	if ((timest->tm_hour != cfg.getSendTime().tm_hour)
+			|| (timest->tm_min != cfg.getSendTime().tm_min))
+		sending = false;
+	else if (!sending)
+		sending = true;
+	else
+		return false;
+
+	return sending;
+}

@@ -23,7 +23,7 @@ public:
 		initialize();
 
 		for (unsigned int i = 0; i < orig.size(); ++i) {
-			add(orig.get(i));
+			add(orig.getForIndex(i));
 		}
 	}
 

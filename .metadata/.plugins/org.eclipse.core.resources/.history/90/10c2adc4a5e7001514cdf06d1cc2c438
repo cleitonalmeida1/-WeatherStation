@@ -1,0 +1,18 @@
+/*
+ * WeatherStation.cpp
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#include <WeatherStation.h>
+
+WeatherStation::WeatherStation() {
+	// TODO Auto-generated constructor stub
+
+}
+
+WeatherStation::~WeatherStation() {
+	// TODO Auto-generated destructor stub
+}
+

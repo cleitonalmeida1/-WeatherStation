@@ -1,0 +1,127 @@
+/*
+ * WeatherStation.h
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#ifndef WEATHERSTATION_H_
+#define WEATHERSTATION_H_
+
+#include "mbed.h"
+#include "ConfigFile.h"
+#include "EthernetPowerControl.h"
+#include "GPS.h"
+#include "Logger.h"
+#include "nRF24L01P.h"
+#include "sht15.hpp"
+#include "Anemometer.h"
+#include "Pluviometer.h"
+#include "ReadingData.h"
+#include "Watchdog.h"
+#include "Wetting.h"
+
+class WeatherStation {
+public:
+	typedef void (WeatherStation::*Action)();
+
+	typedef enum {
+		CONFIGURING = 0, CONFIGURED, READ_SENSORS, SAVE_DATA, SEND
+	} States;
+
+	typedef enum _Energy {
+		POWER, OFF
+	} Energy;
+
+	/**
+	 * constructor.
+	 */
+	WeatherStation();
+
+	/**
+	 * destructor.
+	 */
+	virtual ~WeatherStation();
+
+	/**
+	 * Get an instance of WeatherStation object.
+	 * Singleton Pattern.
+	 */
+	static WeatherStation *getInstance();
+
+	/**
+	 * Start weather station actions (readings, send).
+	 */
+	virtual void start();
+
+	/**
+	 * Destroy the WeatherStation object.
+	 */
+	virtual void destroy();
+
+	inline const Logger& getLogger() const {
+		return logger;
+	}
+
+	/**
+	 * Initialize weather station.
+	 */
+	virtual void init();
+
+	/**
+	 * Configure weather station.
+	 */
+	virtual void config();
+
+	/**
+	 * Configure timer.
+	 */
+	void configTimer();
+
+	/**
+	 * Save (record on disk) information file.
+	 */
+	bool saveInfoFile();
+
+	/**
+	 * Reload watchdog time.
+	 */
+	void reloadWatchdog();
+
+	/**
+	 * Checks if it's time to read.
+	 */
+	bool isTimeToRead();
+
+	/**
+	 * Checks if it's time to send.
+	 */
+	bool isTimeToSend();
+
+
+
+	void blinkLED(int led, uint8_t qtdPiscar, int intervalo);
+	void powerGPS(Energy opt);
+	void powerBattery(Energy opt);
+	void powerMbed(Energy opt);
+	void send();
+	void saveData();
+	void readSensors();
+
+	void setState(States state);
+
+private:
+	Action actions[5];
+
+	LocalFileSystem fs;
+	Logger logger;
+	WeatherStationConfig cfg;
+	Watchdog wdt;
+	Ticker weak;
+	Pluviometer pluv;
+	GPS gps;
+
+	ReadingData data;
+};
+
+#endif /* WEATHERSTATION_H_ */

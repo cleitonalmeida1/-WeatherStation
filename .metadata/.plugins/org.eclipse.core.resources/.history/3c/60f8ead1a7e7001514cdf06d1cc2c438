@@ -1,0 +1,72 @@
+/*
+ * WeatherStation.cpp
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#include <WeatherStation.h>
+
+WeatherStation::WeatherStation() {
+	// TODO Auto-generated constructor stub
+
+}
+
+WeatherStation::~WeatherStation() {
+	// TODO Auto-generated destructor stub
+}
+
+WeatherStation* WeatherStation::getInstance() {
+	static WeatherStation *station = NULL;
+
+	if (station == NULL)
+		station = new WeatherStation();
+
+	return station;
+}
+
+void WeatherStation::start() {
+
+	long processtime, tm;
+
+	while (true) {
+
+		reloadWatchdog();
+
+		if (isTimeToRead()) {
+
+			processtime = tm = time(NULL);
+
+			logger.log("TIME A: %ld", processtime);
+
+			readSensors();
+
+			if (!saveData())
+				logger.err("Unable to save the data.");
+
+			tm = time(NULL);
+
+			logger.log("TIME B: %ld", tm);
+
+			processtime = tm - processtime;
+
+			logger.log("Process time: %ld", processtime);
+
+			//Injetar falhas
+		}
+
+		if (isTimeToSend()) {
+			if (!send())
+				logger.warn("Unable to send the data.");
+		}
+
+		if (cfg.getReadingInterval() >= 60)
+			Sleep();
+		else
+			wait(0.5);
+	}
+}
+
+void WeatherStation::destroy() {
+	this->~WeatherStation();
+}

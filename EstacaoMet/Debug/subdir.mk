@@ -4,12 +4,33 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../FrequencyCounter.cpp \
+../PulseIn.cpp \
+../ReadingData.cpp \
+../Watchdog.cpp \
+../WeatherStation.cpp \
+../WeatherStationConfig.cpp \
+../Wetting.cpp \
 ../main.cpp 
 
 OBJS += \
+./FrequencyCounter.o \
+./PulseIn.o \
+./ReadingData.o \
+./Watchdog.o \
+./WeatherStation.o \
+./WeatherStationConfig.o \
+./Wetting.o \
 ./main.o 
 
 CPP_DEPS += \
+./FrequencyCounter.d \
+./PulseIn.d \
+./ReadingData.d \
+./Watchdog.d \
+./WeatherStation.d \
+./WeatherStationConfig.d \
+./Wetting.d \
 ./main.d 
 
 

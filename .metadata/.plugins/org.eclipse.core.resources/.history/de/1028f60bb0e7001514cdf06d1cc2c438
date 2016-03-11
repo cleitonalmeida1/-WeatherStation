@@ -1,0 +1,17 @@
+/*
+ * WeatherStationConfig.h
+ *
+ *  Created on: 11/03/2016
+ *      Author: Cleiton Gonçalves
+ */
+
+#ifndef WEATHERSTATIONCONFIG_H_
+#define WEATHERSTATIONCONFIG_H_
+
+class WeatherStationConfig {
+public:
+	WeatherStationConfig();
+	virtual ~WeatherStationConfig();
+};
+
+#endif /* WEATHERSTATIONCONFIG_H_ */

@@ -74,7 +74,15 @@ FaultInjector/FaultInjector.o FaultInjector/FaultInjector.d: \
  C:\-WeatherStation\EstacaoMet\mbed/gpio_irq_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
- C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h
+ C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/List.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h
 
 ../FaultInjector/FaultInjector.h:
 
@@ -227,3 +235,19 @@ C:\-WeatherStation\EstacaoMet\mbed/wait_api.h:
 C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/List.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h:

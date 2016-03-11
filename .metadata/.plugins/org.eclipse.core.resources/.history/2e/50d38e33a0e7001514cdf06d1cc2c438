@@ -1,0 +1,63 @@
+/*
+ * FaultInjector.h
+ *
+ *  Created on: 01/03/2016
+ *      Author: Cleiton Gon�alves
+ */
+
+#ifndef FAULTINJECTOR_FAULTINJECTOR_H_
+#define FAULTINJECTOR_FAULTINJECTOR_H_
+
+#if defined(TARGET_LPC1764)
+	#include "MemoryMap64.h"
+#elif defined(TARGET_LPC1765)
+	#include "MemoryMap66_65.h"
+#elif defined(TARGET_LPC1766)
+	#include "MemoryMap66_65.h"
+#elif defined(TARGET_LPC1768)
+#include "MemoryMap68.h"
+#else
+
+#endif
+
+#include  "mbed.h"
+
+class FaultInjector {
+public:
+
+	/*
+	 * Identificar o modelo mbed
+	 */
+
+	FaultInjector();
+
+	/*
+	 * Tipos de falhas
+	 * - Travamento do sistema
+	 * - loop infinito
+	 * - bit flip
+	 */
+
+	typedef enum {
+		SYSTEM_CRASH, INFINITY_LOOP, BIT_FLIPING
+	} FaultType;
+
+	void crash(long t = 0);
+
+	void infinityLoop(long t = 0);
+
+	//Injetar falha em regiões específicas
+	//Injetar falha em regiões aleatórias
+
+	void injectFaultRandomlyMemoryRegion(long t = 0);
+
+	void injectFaultMemoryRegion();
+
+	void injectFaultAddressMemorySpecific();
+
+	virtual ~FaultInjector();
+
+
+};
+
+#endif /* FAULTINJECTOR_FAULTINJECTOR_H_ */
