@@ -39,7 +39,7 @@ public:
 	typedef void (WeatherStation::*Action)();
 
 	typedef enum {
-		CONFIGURING = 0, CONFIGURED, READ_SENSORS, SAVE_DATA, SEND
+		START = 0, CONFIGURING, CONFIGURED, RELOAD_WATCHDOG,READ_SENSORS, SAVE_DATA, SEND
 	} States;
 
 	typedef enum _Energy {
@@ -47,8 +47,8 @@ public:
 	} Energy;
 
 	typedef enum {
-			NO_ERROR = 0, ERROR_OPEN_FILE = -1, ERROR_READ_SENSOR = -2
-		} ErrorType;
+		NO_ERROR = 0, ERROR_OPEN_FILE = -1, ERROR_READ_SENSOR = -2
+	} ErrorType;
 
 	/**
 	 * constructor.
@@ -140,7 +140,17 @@ public:
 	/**
 	 * Save data
 	 */
+	void _saveData();
+
+	/**
+	 * Save data
+	 */
 	bool saveData();
+
+	/**
+	 * Send data
+	 */
+	void _send();
 
 	/**
 	 * Send data

@@ -72,7 +72,21 @@ main.o main.d: ../main.cpp C:\-WeatherStation\EstacaoMet\mbed/mbed.h \
  C:\-WeatherStation\EstacaoMet\mbed/gpio_irq_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
- C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h
+ C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h ../WeatherStation.h \
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h \
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h \
+ C:\-WeatherStation\EstacaoMet\PowerControl/EthernetPowerControl.h \
+ C:\-WeatherStation\EstacaoMet\PowerControl/PowerControl.h \
+ C:\-WeatherStation\EstacaoMet\mbed/TARGET_LPC1768/LPC17xx.h \
+ C:\-WeatherStation\EstacaoMet\GPS/GPS.h \
+ C:\-WeatherStation\EstacaoMet\Logger/Logger.h \
+ C:\-WeatherStation\EstacaoMet\nRF24L01P/nRF24L01P.h \
+ C:\-WeatherStation\EstacaoMet\SHTx/sht15.hpp \
+ C:\-WeatherStation\EstacaoMet\SHTx/i2c.hpp ../Anemometer.h ../PulseIn.h \
+ ../Pluviometer.h ../FrequencyCounter.h ../ReadingData.h \
+ ../Serializable.h ../Watchdog.h ../Wetting.h ../WeatherStationConfig.h \
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h \
+ C:\-WeatherStation\EstacaoMet\mbed/Timer.h
 
 C:\-WeatherStation\EstacaoMet\mbed/mbed.h:
 
@@ -223,3 +237,47 @@ C:\-WeatherStation\EstacaoMet\mbed/wait_api.h:
 C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
+
+../WeatherStation.h:
+
+C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h:
+
+C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h:
+
+C:\-WeatherStation\EstacaoMet\PowerControl/EthernetPowerControl.h:
+
+C:\-WeatherStation\EstacaoMet\PowerControl/PowerControl.h:
+
+C:\-WeatherStation\EstacaoMet\mbed/TARGET_LPC1768/LPC17xx.h:
+
+C:\-WeatherStation\EstacaoMet\GPS/GPS.h:
+
+C:\-WeatherStation\EstacaoMet\Logger/Logger.h:
+
+C:\-WeatherStation\EstacaoMet\nRF24L01P/nRF24L01P.h:
+
+C:\-WeatherStation\EstacaoMet\SHTx/sht15.hpp:
+
+C:\-WeatherStation\EstacaoMet\SHTx/i2c.hpp:
+
+../Anemometer.h:
+
+../PulseIn.h:
+
+../Pluviometer.h:
+
+../FrequencyCounter.h:
+
+../ReadingData.h:
+
+../Serializable.h:
+
+../Watchdog.h:
+
+../Wetting.h:
+
+../WeatherStationConfig.h:
+
+C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h:
+
+C:\-WeatherStation\EstacaoMet\mbed/Timer.h:

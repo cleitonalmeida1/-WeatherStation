@@ -15,6 +15,7 @@
 #ifndef WEATHERSTATIONCONFIG_H_
 #define WEATHERSTATIONCONFIG_H_
 
+#include "WeatherStationConfig.h"
 #include "mbed.h"
 
 #include "ConfigList.h"

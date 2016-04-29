@@ -9,7 +9,14 @@
 
 WeatherStation::WeatherStation() :
 		fs(FILESYSTEM_NAME), logger(FILEPATH_LOG, false), gps(p13, p14) {
-	// TODO Auto-generated constructor stub
+
+	actions[START] = &WeatherStation::init;
+	actions[CONFIGURING] = &WeatherStation::config;
+	actions[CONFIGURED] = &WeatherStation::start;
+	actions[RELOAD_WATCHDOG] = &WeatherStation::reloadWatchdog;
+	actions[READ_SENSORS] = &WeatherStation::readSensors;
+	actions[SAVE_DATA] = &WeatherStation::_saveData;
+	actions[SEND] = &WeatherStation::_send;
 
 }
 
@@ -31,45 +38,28 @@ WeatherStation* WeatherStation::getInstance() {
 }
 
 void WeatherStation::start() {
-
-	long processtime, tm;
+	Serial p(USBTX, USBRX);
 
 	while (true) {
-
-		reloadWatchdog();
+		p.printf("-------------------");
+		setState(RELOAD_WATCHDOG);
 
 		if (isTimeToRead()) {
-
-			processtime = tm = time(NULL);
-
-			logger.log("TIME A: %ld", processtime);
-
-			readSensors();
-
-			if (!saveData())
-				logger.err("Unable to save the data.");
-
-			tm = time(NULL);
-
-			logger.log("TIME B: %ld", tm);
-
-			processtime = tm - processtime;
-
-			logger.log("Process time: %ld", processtime);
-
-			//Injetar falhas
+			setState(READ_SENSORS);
+			setState(SAVE_DATA);
 		}
 
 		if (isTimeToSend()) {
-			if (!send())
-				logger.warn("Unable to send the data.");
+			setState(SEND);
 		}
 
 		if (cfg.getReadingInterval() >= 60)
 			Sleep();
 		else
 			wait(0.5);
+
 	}
+
 }
 
 void WeatherStation::init() {
@@ -97,22 +87,24 @@ void WeatherStation::init() {
 		blinkLED(LED1, 10, 100);
 	}
 
-	config();
+	setState(CONFIGURING);
 }
 
 void WeatherStation::config() {
 
 	logger.log("config() - initializing configuration.");
 
-	powerMbed (POWER_ON); 	// Power on mbed
-	powerGPS (POWER_OFF); 	// Power off GPS
+	powerMbed(POWER_ON); 	// Power on mbed
+	powerGPS(POWER_OFF); 	// Power off GPS
 
 	PHY_PowerDown(); 		// Disable ethernet to reduce consumption
-	configTimer();			// Configures timer
+	//configTimer();			// Configures timer
 
 	wdt.kick(cfg.getWatchdogTime());	// Configures watchdog timer
 
 	logger.log("config() - successfully configured.");
+
+	setState(CONFIGURED);
 }
 
 bool WeatherStation::saveInfoFile() {
@@ -151,10 +143,12 @@ bool WeatherStation::saveInfoFile() {
 }
 
 void WeatherStation::reloadWatchdog() {
-
+	Serial p(USBTX, USBRX);
 	wdt.kick();
 
 	blinkLED(LED3, 1, 50);
+	p.printf("REINICIANDO CICLO\n");
+
 }
 
 bool WeatherStation::isTimeToRead() {
@@ -229,10 +223,12 @@ float WeatherStation::readSensor(int num_pino, float v_ini_par,
 }
 
 void WeatherStation::readSensors() {
+	Serial p(USBTX, USBRX);
+	p.printf("LENDO SENSORES\n");
 
 	logger.log("readSensors() - initializing readings.");
 
-	powerBattery (POWER_ON); // Liga Vbat e 5Vc
+	powerBattery(POWER_ON); // Liga Vbat e 5Vc
 	wait_ms(200); // Tempo para Vbat estabilizar, pois o acionamento do MOSFET é lento (+/- 23ms)
 
 	SHTx::SHT15 sensorTE_UR(p29, p30); 	// DATA, SCK
@@ -263,11 +259,12 @@ void WeatherStation::readSensors() {
 	// Calculates CRC
 	data.setCRC(data.calculateCRC());
 
-	powerBattery (POWER_OFF); 	// Desliga Vbat e 5Vc
+	powerBattery(POWER_OFF); 	// Desliga Vbat e 5Vc
 
 	printDataInfo(&data, "\t");
 
 	logger.log("readSensors() - finished.");
+
 }
 
 bool WeatherStation::readGPS() {
@@ -276,7 +273,7 @@ bool WeatherStation::readGPS() {
 
 	logger.log("readGPS() - initializing GPS reading.");
 
-	powerGPS (POWER_ON); // Habilita GPS
+	powerGPS(POWER_ON); // Habilita GPS
 	tm.start();
 
 	do {
@@ -286,7 +283,7 @@ bool WeatherStation::readGPS() {
 			logger.log("Lock OK");
 			logger.log("readGPS() - successfully read.");
 
-			powerGPS (POWER_OFF); // Desabilita GPS
+			powerGPS(POWER_OFF); // Desabilita GPS
 			return true;
 
 		} else
@@ -296,11 +293,19 @@ bool WeatherStation::readGPS() {
 
 	} while (!gps.lock && tm.read() < 3);
 
-	powerGPS (POWER_OFF); // Habilita GPS
+	powerGPS(POWER_OFF); // Habilita GPS
 
 	logger.log("readGPS() - could not read the GPS.");
 
 	return false;
+}
+
+void WeatherStation::_saveData() {
+	Serial p(USBTX, USBRX);
+	p.printf("SALVANDO DADOS\n");
+	if (!saveData()) {
+		logger.err("Unable to save the data.");
+	}
 }
 
 bool WeatherStation::saveData() {
@@ -317,6 +322,14 @@ bool WeatherStation::saveData() {
 	logger.log("saveData() - binary file saved.");
 
 	return status;
+}
+
+void WeatherStation::_send() {
+	if (!send()) {
+		Serial p(USBTX, USBRX);
+		p.printf("ENVIANDO DADOS\n");
+		logger.warn("Unable to send the data.");
+	}
 }
 
 bool WeatherStation::send() {
@@ -390,7 +403,8 @@ void WeatherStation::printConfigInfo() {
 	logger.log("%-18s: %u", "numberOfReadings", cfg.getNumberOfReadings());
 	logger.log("%-18s: %u", "minCorrectReadings", cfg.getMinCorrectReadings());
 	logger.log("%-18s: %s", "readingUnit",
-			(cfg.getReadingUnit() == WeatherStationConfig::READING_UNIT_SEC) ? "Sec" : "Min");
+			(cfg.getReadingUnit() == WeatherStationConfig::READING_UNIT_SEC) ?
+					"Sec" : "Min");
 	logger.log("%-18s: %.1f", "readingInterval",
 			(cfg.getReadingUnit() == WeatherStationConfig::READING_UNIT_SEC) ?
 					cfg.getReadingInterval() : cfg.getReadingInterval() / 60);
@@ -403,7 +417,12 @@ void WeatherStation::printDataInfo(ReadingData *d, const char *prefix) {
 	logger.log("%s Time: %ld", prefix, d->getTime());
 
 	for (int i = 0; i < ReadingData::NUMBER_OF_PARAMETERS; i++)
-		logger.log("%s %s: %.6f", prefix, d->getParameterName(i), d->getParameterValue(i));
+		logger.log("%s %s: %.6f", prefix, d->getParameterName(i),
+				d->getParameterValue(i));
 
 	logger.log("%s CRC: %lu", prefix, d->getCRC());
+}
+
+void WeatherStation::setState(WeatherStation::States state) {
+	(this->*actions[state])();
 }
