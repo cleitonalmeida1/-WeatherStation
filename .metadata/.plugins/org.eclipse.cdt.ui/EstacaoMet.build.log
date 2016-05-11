@@ -1,9 +1,14 @@
-13:32:20 **** Incremental Build of configuration Debug for project EstacaoMet ****
+11:57:05 **** Build of configuration Debug for project EstacaoMet ****
 make -r all 
 Building file: ../WeatherStation.cpp
 Invoking: MCU C++ Compiler
 arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -D__CORTEX_M3 -DTOOLCHAIN_GCC -DMBED_BUILD_TIMESTAMP=1456861434.86 -DTOOLCHAIN_GCC_CR -DARM_MATH_CM3 -DTARGET_LIKE_CORTEX_M3 -DTARGET_CORTEX_M -DTARGET_LIKE_MBED -DTARGET_LPC176X -DTARGET_NXP -DTARGET_LPC1768 -DTARGET_M3 -DTARGET_MBED_LPC1768 -D__MBED__=1 -I"C:\-WeatherStation\EstacaoMet" -I"C:\-WeatherStation\EstacaoMet\GPS" -I"C:\-WeatherStation\EstacaoMet\ConfigFile" -I"C:\-WeatherStation\EstacaoMet\Logger" -I"C:\-WeatherStation\EstacaoMet\nRF24L01P" -I"C:\-WeatherStation\EstacaoMet\PowerControl" -I"C:\-WeatherStation\EstacaoMet\SHTx" -I"C:\-WeatherStation\EstacaoMet\mbed" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"WeatherStation.d" -MT"WeatherStation.o" -MT"WeatherStation.d" -o "WeatherStation.o" "../WeatherStation.cpp"
 Finished building: ../WeatherStation.cpp
+ 
+Building file: ../main.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -D__CORTEX_M3 -DTOOLCHAIN_GCC -DMBED_BUILD_TIMESTAMP=1456861434.86 -DTOOLCHAIN_GCC_CR -DARM_MATH_CM3 -DTARGET_LIKE_CORTEX_M3 -DTARGET_CORTEX_M -DTARGET_LIKE_MBED -DTARGET_LPC176X -DTARGET_NXP -DTARGET_LPC1768 -DTARGET_M3 -DTARGET_MBED_LPC1768 -D__MBED__=1 -I"C:\-WeatherStation\EstacaoMet" -I"C:\-WeatherStation\EstacaoMet\GPS" -I"C:\-WeatherStation\EstacaoMet\ConfigFile" -I"C:\-WeatherStation\EstacaoMet\Logger" -I"C:\-WeatherStation\EstacaoMet\nRF24L01P" -I"C:\-WeatherStation\EstacaoMet\PowerControl" -I"C:\-WeatherStation\EstacaoMet\SHTx" -I"C:\-WeatherStation\EstacaoMet\mbed" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"main.d" -MT"main.o" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
  
 Building target: EstacaoMet.axf
 Invoking: MCU C++ Linker
@@ -17,5 +22,5 @@ arm-none-eabi-size "EstacaoMet.axf"; arm-none-eabi-objcopy -O binary "EstacaoMet
   92804	   2316	   1212	  96332	  1784c	EstacaoMet.axf
  
 
-13:32:38 Build Finished (took 17s.328ms)
+11:57:39 Build Finished (took 33s.835ms)
 
