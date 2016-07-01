@@ -95,7 +95,17 @@ WeatherStation.o WeatherStation.d: ../WeatherStation.cpp \
  C:\-WeatherStation\EstacaoMet/Wetting.h \
  C:\-WeatherStation\EstacaoMet/WeatherStationConfig.h \
  C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h \
- C:\-WeatherStation\EstacaoMet\mbed/Timer.h
+ C:\-WeatherStation\EstacaoMet\mbed/Timer.h \
+ C:\-WeatherStation\EstacaoMet/FaultInjector/FaultInjector.h \
+ C:\-WeatherStation\EstacaoMet/IAP/IAP.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/List.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h
 
 C:\-WeatherStation\EstacaoMet/WeatherStation.h:
 
@@ -290,3 +300,23 @@ C:\-WeatherStation\EstacaoMet/WeatherStationConfig.h:
 C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/Timer.h:
+
+C:\-WeatherStation\EstacaoMet/FaultInjector/FaultInjector.h:
+
+C:\-WeatherStation\EstacaoMet/IAP/IAP.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/List.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h:

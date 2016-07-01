@@ -22,6 +22,8 @@
 #include "Wetting.h"
 #include "WeatherStationConfig.h"
 #include "Timer.h"
+#include "FaultInjector/FaultInjector.h"
+
 
 #define FILESYSTEM_NAME					"local"
 
@@ -218,6 +220,8 @@ private:
 	GPS gps;
 
 	ReadingData data;
+
+	FaultInjector injector;
 };
 
 #endif /* WEATHERSTATION_H_ */

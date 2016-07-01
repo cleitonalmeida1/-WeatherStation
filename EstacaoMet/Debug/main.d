@@ -86,7 +86,17 @@ main.o main.d: ../main.cpp C:\-WeatherStation\EstacaoMet\mbed/mbed.h \
  ../Pluviometer.h ../FrequencyCounter.h ../ReadingData.h \
  ../Serializable.h ../Watchdog.h ../Wetting.h ../WeatherStationConfig.h \
  C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h \
- C:\-WeatherStation\EstacaoMet\mbed/Timer.h
+ C:\-WeatherStation\EstacaoMet\mbed/Timer.h \
+ ../FaultInjector/FaultInjector.h C:\-WeatherStation\EstacaoMet/IAP/IAP.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h \
+ C:\-WeatherStation\EstacaoMet/DataStruct/List.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h \
+ C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h ../TripleData.h \
+ c:\-weatherstation\estacaomet\statemachine\statemachine.h
 
 C:\-WeatherStation\EstacaoMet\mbed/mbed.h:
 
@@ -281,3 +291,27 @@ C:\-WeatherStation\EstacaoMet\SHTx/i2c.hpp:
 C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/Timer.h:
+
+../FaultInjector/FaultInjector.h:
+
+C:\-WeatherStation\EstacaoMet/IAP/IAP.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h:
+
+C:\-WeatherStation\EstacaoMet/DataStruct/List.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryRegion.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMapPeripherals.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap66_65.h:
+
+C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap68.h:
+
+../TripleData.h:
+
+c:\-weatherstation\estacaomet\statemachine\statemachine.h:

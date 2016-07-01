@@ -8,7 +8,7 @@
 #include <WeatherStation.h>
 
 WeatherStation::WeatherStation() :
-		fs(FILESYSTEM_NAME), logger(FILEPATH_LOG, false), gps(p13, p14) {
+		fs(FILESYSTEM_NAME), logger(FILEPATH_LOG, true), gps(p13, p14) {
 
 	actions[START] = &WeatherStation::init;
 	actions[CONFIGURING] = &WeatherStation::config;
@@ -39,15 +39,14 @@ WeatherStation* WeatherStation::getInstance() {
 
 void WeatherStation::start() {
 	Serial p(USBTX, USBRX);
-
 	while (true) {
-		p.printf("-------------------");
 		setState(RELOAD_WATCHDOG);
 
 		if (isTimeToRead()) {
 			setState(READ_SENSORS);
 			setState(SAVE_DATA);
 		}
+		//injector.start(0.1, cfg.getReadingInterval() - 0.1);
 
 		if (isTimeToSend()) {
 			setState(SEND);
@@ -63,7 +62,7 @@ void WeatherStation::start() {
 }
 
 void WeatherStation::init() {
-
+	logger.log("INICIANDO");
 	/* Load configuration */
 	cfg.loadFromFile(FILEPATH_CONFIG);
 
@@ -147,6 +146,7 @@ void WeatherStation::reloadWatchdog() {
 	wdt.kick();
 
 	blinkLED(LED3, 1, 50);
+	logger.log("INICIANDO");
 	p.printf("REINICIANDO CICLO\n");
 
 }

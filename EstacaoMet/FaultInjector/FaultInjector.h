@@ -9,6 +9,7 @@
 #define FAULTINJECTOR_FAULTINJECTOR_H_
 
 #include  "mbed.h"
+#include "IAP/IAP.h"
 #include "MemoryMap/MemoryMap64.h"
 #include "MemoryMap/MemoryMap66_65.h"
 #include "MemoryMap/MemoryMap66_65.h"
@@ -20,6 +21,7 @@ public:
 
 	static const int DEFAULT_CHANGED_BYTES = 32; // Number of bytes changed in each fault injection.
 	static const int DEFAULT_CHANGED_BITS = 0; // Number of bits changed in each byte: [0 <= n <= 8] (0 = random).
+	static const int MEM_SIZE = 256;
 
 	typedef enum {
 		SYSTEM_CRASH, INFINITY_LOOP, BIT_FLIPING
@@ -49,6 +51,7 @@ public:
 	 */
 
 	void start(float t);
+	void start(float tMin, float tMax);
 	void crash();
 
 	void infinityLoop();
@@ -66,22 +69,33 @@ public:
 	unsigned long getByteUserMemory(unsigned long startAddr,
 			unsigned long endAddr);
 
-	char* itoa(char *result, int value, int base);
+	unsigned char* itoa(int value, unsigned char *result, int base);
 
 	MbedModel getMbedModel();
 
 	void startInjectFault();
+
+	static float getRandomFloat(float min, float max);
+
+	static double getRandomDouble(double min, double max);
+	int setorFlash;
 private:
 
 	void injectFaultTypeMemoryRegionAuxMemoryType(MemoryType memType);
 	void injectFault(unsigned long addrStart, unsigned long addrEnd,
 			unsigned long changedBytes, uint8_t changedBits);
+	void injectFaultFlash(unsigned long changedBytes, uint8_t changedBits);
+	void    memdump( char *p, int n );
+	unsigned char* complete_zero(unsigned char *num_str);
 
 	MemoryMap *memoryMap;
 	unsigned int userMemorySize;
 	unsigned int flashMemorySize;
 	unsigned int peripheralsMemorySize;
-	//Timeout timer;
+	unsigned char str[10];
+	unsigned char *byte;
+	Timeout timer;
+	IAP iap;
 
 };
 

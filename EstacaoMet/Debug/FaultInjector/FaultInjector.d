@@ -75,6 +75,7 @@ FaultInjector/FaultInjector.o FaultInjector/FaultInjector.d: \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h \
+ C:\-WeatherStation\EstacaoMet/IAP/IAP.h \
  C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h \
  C:\-WeatherStation\EstacaoMet/DataStruct/ArrayList.h \
  C:\-WeatherStation\EstacaoMet/DataStruct/List.h \
@@ -235,6 +236,8 @@ C:\-WeatherStation\EstacaoMet\mbed/wait_api.h:
 C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
+
+C:\-WeatherStation\EstacaoMet/IAP/IAP.h:
 
 C:\-WeatherStation\EstacaoMet/MemoryMap/MemoryMap64.h:
 

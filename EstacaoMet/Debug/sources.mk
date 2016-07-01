@@ -27,9 +27,11 @@ SUBDIRS := \
 nRF24L01P \
 mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR \
 . \
+StateMachine \
 SHTx \
 PowerControl \
 Logger \
+IAP \
 GPS \
 FaultInjector \
 ConfigFile \

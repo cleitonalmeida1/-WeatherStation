@@ -10,9 +10,11 @@ RM := rm -rf
 -include sources.mk
 -include nRF24L01P/subdir.mk
 -include mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/subdir.mk
+-include StateMachine/subdir.mk
 -include SHTx/subdir.mk
 -include PowerControl/subdir.mk
 -include Logger/subdir.mk
+-include IAP/subdir.mk
 -include GPS/subdir.mk
 -include FaultInjector/subdir.mk
 -include ConfigFile/subdir.mk

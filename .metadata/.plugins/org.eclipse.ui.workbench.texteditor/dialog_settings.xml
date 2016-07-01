@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="142" key="DIALOG_Y_ORIGIN"/>
-		<item value="871" key="DIALOG_X_ORIGIN"/>
+		<item value="127" key="DIALOG_Y_ORIGIN"/>
+		<item value="1031" key="DIALOG_X_ORIGIN"/>
 		<item value="381" key="DIALOG_HEIGHT"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="start" key="selection"/>
+		<item value="&lt;&lt;" key="selection"/>
 		<list key="findhistory">
-			<item value="start"/>
-			<item value="while(true"/>
-			<item value="read"/>
-			<item value="CONFIGURED"/>
-			<item value="send()"/>
-			<item value="sen()"/>
-			<item value="readS"/>
-			<item value="saveD"/>
+			<item value="&lt;&lt;"/>
+			<item value="EsperandoCarroChegar"/>
+			<item value="__at"/>
+			<item value="__a"/>
+			<item value="d2"/>
+			<item value="s2"/>
+			<item value="getD"/>
+			<item value="zero_init"/>
 		</list>
 		<list key="replacehistory">
 		</list>
