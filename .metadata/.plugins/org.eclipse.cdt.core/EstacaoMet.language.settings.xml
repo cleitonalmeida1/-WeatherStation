@@ -4,7 +4,7 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.g++">
-					<resource project-relative-path="FrequencyCounter.cpp">
+					<resource project-relative-path="MemoryMap/MemoryMap.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -62,7 +62,7 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="MemoryMap/MemoryMap.cpp">
+					<resource project-relative-path="FrequencyCounter.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -410,7 +410,7 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="ConfigFile/ConfigList.cpp">
+					<resource project-relative-path="MemoryMap/MemoryRegion.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -468,7 +468,7 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="MemoryMap/MemoryRegion.cpp">
+					<resource project-relative-path="ConfigFile/ConfigList.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -817,6 +817,64 @@
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
 					<resource project-relative-path="Wetting.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/GPS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/ConfigFile">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Logger">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/nRF24L01P">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/PowerControl">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/SHTx">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1456861434.86"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="FaultRecovery/ParkingApp.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -1280,6 +1338,64 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
+					<resource project-relative-path="FaultRecovery/StateMachine.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/GPS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/ConfigFile">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Logger">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/nRF24L01P">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/PowerControl">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/SHTx">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1456861434.86"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
 					<resource project-relative-path="Logger/Logger.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
@@ -1396,6 +1512,64 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
+					<resource project-relative-path="FaultRecovery/Main.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/GPS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/ConfigFile">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/Logger">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/nRF24L01P">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/PowerControl">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/SHTx">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1456861434.86"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
 					<resource project-relative-path="FaultInjector/FaultInjector.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
@@ -1454,7 +1628,7 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="FaultInjector/Utils.cpp">
+					<resource project-relative-path="WeatherStation.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -1512,7 +1686,7 @@
 						<entry kind="macro" name="__MBED__" value="1"/>
 						<entry kind="macro" name="__NEWLIB__" value=""/>
 					</resource>
-					<resource project-relative-path="WeatherStation.cpp">
+					<resource project-relative-path="FaultInjector/Utils.cpp">
 						<entry kind="includePath" name="/${ProjName}/">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>

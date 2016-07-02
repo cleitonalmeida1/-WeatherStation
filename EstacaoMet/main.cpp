@@ -77,13 +77,15 @@ class EsperandoCarroEntrar: public State {
 		};
 	};
 
-	int main() {
+
+	//int main() {
 		/*
 		 WeatherStation w;
 		 w.getInstance()->start();
 		 */
 
 		StateMachine sm;
-		sm.start<EsperandoCarroChegar>();
-	}
+		//sm.start<EsperandoCarroChegar>();
+	//}
+
 

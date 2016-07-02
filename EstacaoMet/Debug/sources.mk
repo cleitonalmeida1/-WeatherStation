@@ -33,6 +33,7 @@ PowerControl \
 Logger \
 IAP \
 GPS \
+FaultRecovery \
 FaultInjector \
 ConfigFile \
 

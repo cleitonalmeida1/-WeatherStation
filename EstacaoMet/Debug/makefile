@@ -16,6 +16,7 @@ RM := rm -rf
 -include Logger/subdir.mk
 -include IAP/subdir.mk
 -include GPS/subdir.mk
+-include FaultRecovery/subdir.mk
 -include FaultInjector/subdir.mk
 -include ConfigFile/subdir.mk
 -include subdir.mk

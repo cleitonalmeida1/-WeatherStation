@@ -3,8 +3,8 @@
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.typehierarchy.QuickHierarchy">
-		<item value="350" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_WIDTH"/>
 		<item value="300" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_HEIGHT"/>
+		<item value="350" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_WIDTH"/>
 		<item value="642" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_X_ORIGIN"/>
 		<item value="true" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 		<item value="272" key="org.eclipse.cdt.internal.ui.typehierarchy.THInformationControlDIALOG_Y_ORIGIN"/>
@@ -12,27 +12,27 @@
 	</section>
 	<section name="org.eclipse.cdt.internal.ui.text.QuickOutline">
 		<item value="637" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_X_ORIGIN"/>
-		<item value="300" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_HEIGHT"/>
 		<item value="285" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_Y_ORIGIN"/>
+		<item value="300" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_HEIGHT"/>
 		<item value="true" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
 		<item value="350" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_WIDTH"/>
 		<item value="true" key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="true" key="stubSelected1"/>
-		<item value="false" key="namespaceSelected"/>
 		<item value="false" key="testFileSelected"/>
+		<item value="false" key="namespaceSelected"/>
 		<item value="false" key="stubInline1"/>
 		<item value="true" key="stubVirtual1"/>
 		<item value="false" key="stubInline0"/>
-		<item value="" key="namespace"/>
 		<item value="true" key="stubSelected0"/>
+		<item value="" key="namespace"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
 		<item value="398" key="DIALOG_WIDTH"/>
 		<item value="85" key="DIALOG_Y_ORIGIN"/>
-		<item value="492" key="DIALOG_X_ORIGIN"/>
 		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="492" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
