@@ -19,6 +19,7 @@
 #define STATEMACHINELIB_STATEMACHINE_H
 
 #include "mbed.h"
+#include "ConfigFile.h"
 #include <map>
 #include <fstream>
 #include <iostream>
@@ -37,9 +38,9 @@ class Application;
 /* -----------------------------------------------------------------------------
  * Type Definitions
  * ---------------------------------------------------------------------------*/
-typedef unsigned long long TypeID;
+typedef int TypeID;
 
-static const char *RECOVERY_FILE = "/local/state.bin";
+static const char *RECOVERY_FILE = "/local/state.txt";
 
 /* -----------------------------------------------------------------------------
  * Class Definitions
@@ -105,12 +106,13 @@ public:
 class StateMachine {
 public:
 
-	StateMachine() {
+	StateMachine() :
+			configFile(RECOVERY_FILE) {
 	}
 
 	StateMachine(StateMachine &orig) :
 			recoveryPoints(orig.recoveryPoints), states(orig.states), current(
-					orig.current) {
+					orig.current), configFile(RECOVERY_FILE) {
 	}
 
 	virtual ~StateMachine() {
@@ -122,7 +124,6 @@ public:
 		TypeID id = TypeIDFactory::getID<S>();
 		recoveryPoints[id] = new R;
 	}
-	;
 
 	template<class S>
 	void setToState() {
@@ -132,37 +133,36 @@ public:
 			addState<S>();
 		}
 	}
-	;
 
 	template<class S>
 	void start() {
 		setToState<S>();
 		run();
 	}
-	;
 
 	bool recoveryFrom(TypeID id) {
 		RecoveryPoint *recoveryPoint = recoveryPoints[id];
+		cout << "idRecovery = " << endl;
 		if (recoveryPoint == NULL) {
+			cout << "NULL" << endl;
 			return false;
 		}
 		recoveryPoints[id]->run(*this);
 		return true;
 	}
-	;
 
 private:
 
 	std::map<TypeID, RecoveryPoint *> recoveryPoints;
 	std::map<TypeID, State *> states;
 	TypeID current;
+	ConfigFile configFile;
 
 	template<class S>
 	void addState() {
 		TypeID id = TypeIDFactory::getID<S>();
 		states[id] = new S;
 	}
-	;
 
 	void run() {
 		static bool RUNNING = true;
@@ -172,12 +172,9 @@ private:
 	}
 
 	void serializeToFlash(TypeID id) {
-
-		FILE *fp = fopen(RECOVERY_FILE, "r");
-
-		fwrite(&id, sizeof(TypeID), 1, fp);
-
-		fclose(fp);
+		cout << "salvando = " << id << endl;
+		configFile.setInt("estado", id);
+		configFile.save();
 	}
 };
 
@@ -185,14 +182,10 @@ class Application {
 protected:
 
 	Application() :
-			fileSystem("local") {
+			localFileSystem("local"), configFile(RECOVERY_FILE) {
 	}
 
-	/*
-	 Application(Application &orig) :
-	 fileSystem(orig.fileSystem) {
-	 }
-	 */
+	//Application(Application &orig) : localFileSystem(orig.localFileSystem) { }
 
 	virtual ~Application() {
 	}
@@ -203,11 +196,12 @@ public:
 	static Application* getInstance() {
 		return (Application *) instance;
 	}
+	;
 
 	template<class App>
 	static void initialize() {
 		if (instance != NULL) {
-			cout << "Application has already been initialized" << endl;
+			cout << "Application has already been initialized";
 		}
 
 		static StateMachine sm;
@@ -234,17 +228,9 @@ public:
 //    }
 
 	TypeID unserializeFromFlash() {
-
-		TypeID id;
-		FILE *fp = fopen(RECOVERY_FILE, "wb");
-
-		if (fp == NULL)
-			return 999;
-
-		fread(&id, sizeof(TypeID), 1, fp);
-		cout << id << endl;
-		fclose(fp);
-		return id;
+		int a = atoi(configFile.get("estado"));
+		cout << "lendo = " << a << endl;
+		return a;
 	}
 
 protected:
@@ -261,11 +247,18 @@ private:
 
 	static Application *instance;
 
-	LocalFileSystem fileSystem;
+	LocalFileSystem localFileSystem;
+
+	ConfigFile configFile;
 
 	bool recovery(StateMachine &sm) {
-		TypeID id = unserializeFromFlash();
-		return sm.recoveryFrom(id);
+		if (configFile.load()) {
+			TypeID id = unserializeFromFlash();
+			cout << "id = " << id << endl;
+
+			return sm.recoveryFrom(id);
+		}
+		return false;
 	}
 };
 

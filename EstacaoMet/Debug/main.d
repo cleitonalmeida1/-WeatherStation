@@ -74,7 +74,6 @@ main.o main.d: ../main.cpp C:\-WeatherStation\EstacaoMet\mbed/mbed.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h ../WeatherStation.h \
  C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h \
- C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h \
  C:\-WeatherStation\EstacaoMet\PowerControl/EthernetPowerControl.h \
  C:\-WeatherStation\EstacaoMet\PowerControl/PowerControl.h \
  C:\-WeatherStation\EstacaoMet\mbed/TARGET_LPC1768/LPC17xx.h \
@@ -251,8 +250,6 @@ C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
 ../WeatherStation.h:
 
 C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h:
-
-C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigList.h:
 
 C:\-WeatherStation\EstacaoMet\PowerControl/EthernetPowerControl.h:
 

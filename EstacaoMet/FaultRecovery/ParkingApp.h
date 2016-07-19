@@ -18,8 +18,8 @@
 #ifndef STATEMACHINELIB_PARKINGAPP_H
 #define STATEMACHINELIB_PARKINGAPP_H
 
-#include "mbed.h"
 
+#include "mbed.h"
 #include <iostream>
 #include "StateMachine.h"
 

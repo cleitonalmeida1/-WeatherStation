@@ -75,7 +75,8 @@ FaultRecovery/ParkingApp.o FaultRecovery/ParkingApp.d: \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h \
- ../FaultRecovery/StateMachine.h
+ ../FaultRecovery/StateMachine.h \
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h
 
 ../FaultRecovery/ParkingApp.h:
 
@@ -230,3 +231,5 @@ C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
 
 ../FaultRecovery/StateMachine.h:
+
+C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h:

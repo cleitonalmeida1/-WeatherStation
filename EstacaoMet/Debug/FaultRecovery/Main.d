@@ -1,5 +1,5 @@
 FaultRecovery/Main.o FaultRecovery/Main.d: ../FaultRecovery/Main.cpp \
- ../FaultRecovery/ParkingApp.h C:\-WeatherStation\EstacaoMet\mbed/mbed.h \
+ C:\-WeatherStation\EstacaoMet\mbed/mbed.h \
  C:\-WeatherStation\EstacaoMet\mbed/platform.h \
  C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768/device.h \
  C:\-WeatherStation\EstacaoMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X/objects.h \
@@ -74,9 +74,8 @@ FaultRecovery/Main.o FaultRecovery/Main.d: ../FaultRecovery/Main.cpp \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h \
- ../FaultRecovery/StateMachine.h
-
-../FaultRecovery/ParkingApp.h:
+ ../FaultRecovery/ParkingApp.h ../FaultRecovery/StateMachine.h \
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h
 
 C:\-WeatherStation\EstacaoMet\mbed/mbed.h:
 
@@ -228,4 +227,8 @@ C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
 
+../FaultRecovery/ParkingApp.h:
+
 ../FaultRecovery/StateMachine.h:
+
+C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h:

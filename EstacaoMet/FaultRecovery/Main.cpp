@@ -15,14 +15,15 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <mbed.h>
 #include <iostream>
-#include "ParkingApp.h"
+#include <string>
 
-using namespace std;
+#include "ParkingApp.h"
 
 int main() {
 
-    Application::initialize<ParkingApp>();
+	Application::initialize<ParkingApp>();
 
-    return 0;
+	return 0;
 }
