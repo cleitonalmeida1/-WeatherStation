@@ -84,7 +84,6 @@ public:
 		TypeID id = TypeIDGenerator::generateID<S>();
 		states[id] = new S;
 	}
-	;
 
 	template<class S>
 	void setToState() {
@@ -93,21 +92,24 @@ public:
 			addState<S>();
 		}
 	}
-	;
 
 	template<class S>
 	void start() {
 		setToState<S>();
 		run();
 	}
-	;
 
 	void run() {
 		bool RUNNING = true;
+		Timer t;
 		while (RUNNING) {
+			t.reset();
+			t.start();
 			states[current]->run(*this);
+			t.read();
 		}
 	}
+
 private:
 
 	std::map<TypeID, State *> states;
@@ -116,6 +118,7 @@ private:
 
 class Application {
 protected:
+
 	Application() {
 	}
 	Application(Application &orig) {
@@ -124,10 +127,10 @@ protected:
 	}
 
 private:
+
 	virtual void setup() {
 
 	}
-
 };
 
 #endif /* STATEMACHINE_STATEMACHINE_H_ */

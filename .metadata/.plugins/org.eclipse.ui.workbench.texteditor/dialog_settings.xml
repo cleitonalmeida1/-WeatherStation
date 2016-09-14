@@ -2,29 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="127" key="DIALOG_Y_ORIGIN"/>
+		<item value="305" key="DIALOG_Y_ORIGIN"/>
+		<item value="237" key="DIALOG_X_ORIGIN"/>
 		<item value="381" key="DIALOG_HEIGHT"/>
-		<item value="1031" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
-		<item value="false" key="incremental"/>
+		<item value="false" key="isRegEx"/>
+		<item value="true" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="%l" key="selection"/>
+		<item value="start" key="selection"/>
 		<list key="findhistory">
-			<item value="%l"/>
-			<item value="seria"/>
-			<item value="Stateserial"/>
+			<item value="start"/>
+			<item value="std"/>
 			<item value="State"/>
-			<item value="Recovery"/>
-			<item value="Appli"/>
-			<item value="sle"/>
-			<item value="sleep"/>
+			<item value="RecoveryP"/>
+			<item value="trocarPosicaoValores"/>
+			<item value="logger"/>
+			<item value="cont"/>
+			<item value="serializ"/>
 		</list>
 		<list key="replacehistory">
+			<item value="unsigned short"/>
+			<item value=""/>
+			<item value="f.injectFaults(ini, fim, 1, 0);"/>
+			<item value="itoa(*addr, value, 2);"/>
+			<item value="injector.start(0.01, 0.02);"/>
+			<item value="qtdFalhas(cont, n)"/>
+			<item value="qtdFalhas"/>
+			<item value="qtdFalha"/>
 		</list>
 	</section>
 </section>

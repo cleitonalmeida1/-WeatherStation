@@ -25,6 +25,26 @@
 		</section>
 	</section>
 	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\-WeatherStation\ResultadoFlash"/>
+			<item value="C:\-WeatherStation\ResultadoSimplesFaultInjectorTData1024"/>
+			<item value="C:\-WeatherStation\ResultadoSimplesFaultInjector1024"/>
+			<item value="C:\-WeatherStation\ResultadoSimplesFaultInjectorTrippleData"/>
+			<item value="C:\-WeatherStation\TesteInjetorFault"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="580" key="DIALOG_HEIGHT"/>
+		<item value="429" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
@@ -32,7 +52,7 @@
 		<item value="true" key="BUILD_ALL"/>
 		<item value="121" key="DIALOG_Y_ORIGIN"/>
 		<item value="441" key="DIALOG_HEIGHT"/>
-		<item value="-890" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

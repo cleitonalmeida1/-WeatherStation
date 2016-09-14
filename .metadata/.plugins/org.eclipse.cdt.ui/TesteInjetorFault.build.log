@@ -1,0 +1,6 @@
+16:03:09 **** Incremental Build of configuration Debug for project TesteInjetorFault ****
+make -r all 
+make: Nothing to be done for `all'.
+
+16:03:12 Build Finished (took 2s.511ms)
+

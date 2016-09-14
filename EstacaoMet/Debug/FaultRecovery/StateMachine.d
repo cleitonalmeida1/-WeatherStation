@@ -75,7 +75,8 @@ FaultRecovery/StateMachine.o FaultRecovery/StateMachine.d: \
  C:\-WeatherStation\EstacaoMet\mbed/wait_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h \
  C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h \
- C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h
+ C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h \
+ C:\-WeatherStation\EstacaoMet\Logger/Logger.h
 
 ../FaultRecovery/StateMachine.h:
 
@@ -230,3 +231,5 @@ C:\-WeatherStation\EstacaoMet\mbed/sleep_api.h:
 C:\-WeatherStation\EstacaoMet\mbed/rtc_time.h:
 
 C:\-WeatherStation\EstacaoMet\ConfigFile/ConfigFile.h:
+
+C:\-WeatherStation\EstacaoMet\Logger/Logger.h:

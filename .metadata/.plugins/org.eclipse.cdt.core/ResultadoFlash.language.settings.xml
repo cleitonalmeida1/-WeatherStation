@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.crt.advproject.config.exe.debug.2019491857" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider id="com.crt.advproject.GCCBuildCommandParser">
+				<language id="org.eclipse.cdt.core.g++">
+					<resource project-relative-path="FaultRecovery/Utils.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="ConfigFile/ConfigFile.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/ConfigFile">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="FaultRecovery/FaultInjector.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="IAP/IAP.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="FaultInjector/FaultInjector.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="FaultInjector/Utils.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+					<resource project-relative-path="Main.cpp">
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/ConfigFile">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includeFile" name="/${ProjName}/mbed_config.h">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="ARM_MATH_CM3" value=""/>
+						<entry kind="macro" name="CPP_USE_HEAP" value=""/>
+						<entry kind="macro" name="DEVICE_ANALOGIN" value="1"/>
+						<entry kind="macro" name="DEVICE_ANALOGOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_CAN" value="1"/>
+						<entry kind="macro" name="DEVICE_DEBUG_AWARENESS" value="1"/>
+						<entry kind="macro" name="DEVICE_ERROR_PATTERN" value="1"/>
+						<entry kind="macro" name="DEVICE_ETHERNET" value="1"/>
+						<entry kind="macro" name="DEVICE_I2C" value="1"/>
+						<entry kind="macro" name="DEVICE_I2CSLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_INTERRUPTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_LOCALFILESYSTEM" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTIN" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTINOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PORTOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_PWMOUT" value="1"/>
+						<entry kind="macro" name="DEVICE_RTC" value="1"/>
+						<entry kind="macro" name="DEVICE_SEMIHOST" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL" value="1"/>
+						<entry kind="macro" name="DEVICE_SERIAL_FC" value="1"/>
+						<entry kind="macro" name="DEVICE_SLEEP" value="1"/>
+						<entry kind="macro" name="DEVICE_SPI" value="1"/>
+						<entry kind="macro" name="DEVICE_SPISLAVE" value="1"/>
+						<entry kind="macro" name="DEVICE_STDIO_MESSAGES" value="1"/>
+						<entry kind="macro" name="MBED_BUILD_TIMESTAMP" value="1469571479.14"/>
+						<entry kind="macro" name="TARGET_CORTEX_M" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_CORTEX_M3" value=""/>
+						<entry kind="macro" name="TARGET_LIKE_MBED" value=""/>
+						<entry kind="macro" name="TARGET_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_LPC176X" value=""/>
+						<entry kind="macro" name="TARGET_M3" value=""/>
+						<entry kind="macro" name="TARGET_MBED_LPC1768" value=""/>
+						<entry kind="macro" name="TARGET_NXP" value=""/>
+						<entry kind="macro" name="TARGET_RELEASE" value=""/>
+						<entry kind="macro" name="TARGET_UVISOR_UNSUPPORTED" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_GCC_CR" value=""/>
+						<entry kind="macro" name="TOOLCHAIN_object" value=""/>
+						<entry kind="macro" name="__CMSIS_RTOS" value=""/>
+						<entry kind="macro" name="__CODE_RED" value=""/>
+						<entry kind="macro" name="__CORTEX_M3" value=""/>
+						<entry kind="macro" name="__MBED_CMSIS_RTOS_CM" value=""/>
+						<entry kind="macro" name="__MBED__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value=""/>
+					</resource>
+				</language>
+			</provider>
+		</extension>
+	</configuration>
+</project>

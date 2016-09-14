@@ -4,17 +4,14 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../FaultRecovery/Main.cpp \
 ../FaultRecovery/ParkingApp.cpp \
 ../FaultRecovery/StateMachine.cpp 
 
 OBJS += \
-./FaultRecovery/Main.o \
 ./FaultRecovery/ParkingApp.o \
 ./FaultRecovery/StateMachine.o 
 
 CPP_DEPS += \
-./FaultRecovery/Main.d \
 ./FaultRecovery/ParkingApp.d \
 ./FaultRecovery/StateMachine.d 
 

@@ -20,6 +20,7 @@
 
 #include "mbed.h"
 #include "ConfigFile.h"
+#include "Logger.h"
 #include <map>
 #include <fstream>
 #include <iostream>
@@ -107,12 +108,12 @@ class StateMachine {
 public:
 
 	StateMachine() :
-			configFile(RECOVERY_FILE) {
+			configFile(RECOVERY_FILE), logger("/local/teste.txt") {
 	}
 
 	StateMachine(StateMachine &orig) :
 			recoveryPoints(orig.recoveryPoints), states(orig.states), current(
-					orig.current), configFile(RECOVERY_FILE) {
+					orig.current), configFile(RECOVERY_FILE), logger("/local/teste.txt") {
 	}
 
 	virtual ~StateMachine() {
@@ -157,7 +158,8 @@ private:
 	std::map<TypeID, State *> states;
 	TypeID current;
 	ConfigFile configFile;
-
+	Logger logger;
+	Timer t;
 	template<class S>
 	void addState() {
 		TypeID id = TypeIDFactory::getID<S>();
@@ -167,12 +169,15 @@ private:
 	void run() {
 		static bool RUNNING = true;
 		while (RUNNING) {
+			t.reset();
+			t.start();
 			states[current]->run(*this);
+			logger.log("%f", t.read());
+			t.stop();
 		}
 	}
 
 	void serializeToFlash(TypeID id) {
-		cout << "salvando = " << id << endl;
 		configFile.setInt("estado", id);
 		configFile.save();
 	}
@@ -196,10 +201,11 @@ public:
 	static Application* getInstance() {
 		return (Application *) instance;
 	}
-	;
+
 
 	template<class App>
 	static void initialize() {
+		cout << "initialize" << endl;
 		if (instance != NULL) {
 			cout << "Application has already been initialized";
 		}
@@ -212,20 +218,15 @@ public:
 
 		static bool RESET_BY_FAULT = true;
 		bool started = false;
+		cout << "RESET_BY_FAULT" << endl;
 		if (RESET_BY_FAULT && instance->recovery(sm)) {
+			cout << "RECOVERY" << endl;
 			started = true;
 		}
 		if (!started) {
 			instance->start(sm);
 		}
 	}
-
-//    void serializeToFlash(TypeID id) {
-//        std::cout << "Current state: " << id << std::endl;
-//        ofstream outstream(RECOVERY_FILE, ios::binary);
-//        outstream << id;
-//        outstream.close();
-//    }
 
 	TypeID unserializeFromFlash() {
 		int a = atoi(configFile.get("estado"));

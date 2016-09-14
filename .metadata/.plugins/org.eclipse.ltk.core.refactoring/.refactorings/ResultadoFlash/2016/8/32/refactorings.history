@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ResultadoFlash/FaultRecovery&apos; to &apos;FaultInjector&apos;" description="Rename resource &apos;FaultRecovery&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FaultRecovery" name="FaultInjector" stamp="1470408655435" updateReferences="true"/>
+</session>

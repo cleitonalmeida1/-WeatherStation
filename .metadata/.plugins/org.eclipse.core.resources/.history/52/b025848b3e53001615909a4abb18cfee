@@ -1,0 +1,39 @@
+/*
+ * InsertionSort.h
+ *
+ *  Created on: 19/07/2016
+ *      Author: Cleiton Gon�alves
+ */
+
+#include <stdio.h>
+#include <iostream>
+
+class InsertionSort {
+public:
+	InsertionSort() {
+
+	}
+	virtual ~InsertionSort() {
+
+	}
+
+	void insertion(int vetorDesordenado[], int tamanhoVetor )
+	{
+	   int i, j, valorAtual;
+
+	   for( j=1; j < tamanhoVetor; j++ )
+	   {
+	      valorAtual = vetorDesordenado[j];
+	      i = j-1;
+
+	      while(i >= 0 && vetorDesordenado[i] > valorAtual)
+	      {
+	        vetorDesordenado[i+1] = vetorDesordenado[i];
+	        i--;
+	      }
+
+	      vetorDesordenado[i+1] = valorAtual;
+	   }
+	}
+};
+

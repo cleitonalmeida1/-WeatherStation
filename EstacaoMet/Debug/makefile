@@ -12,6 +12,7 @@ RM := rm -rf
 -include mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/subdir.mk
 -include StateMachine/subdir.mk
 -include SHTx/subdir.mk
+-include ResultStateInjector/subdir.mk
 -include PowerControl/subdir.mk
 -include Logger/subdir.mk
 -include IAP/subdir.mk

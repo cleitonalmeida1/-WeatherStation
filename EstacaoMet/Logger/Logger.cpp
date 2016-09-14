@@ -44,16 +44,9 @@ int Logger::printLoggerMsg(LoggerEventType type, const char *msg) {
 	for (int i = 0; line != NULL; i++) {
 
 		if (i == 0) {
-			char time_str[32];
-			const char *type_str = (type == EV_LOG) ? "(Log)" : (type == EV_WARN) ? "(Warning)" :
-									(type == EV_ERR) ? "(Error)" : "";
-
-			time_t tm = time(NULL);
-			strftime(time_str, 32, "%F | %T", localtime(&tm)); // 2014-03-25 | 08:35:00
-
-			fprintf(fp, "%s | %-9s | %s\n", time_str, type_str, line);
+			fprintf(fp, "%s\n", line);
 			if (serial_debug)
-				pc.printf("%s | %-9s | %s\n", time_str, type_str, line);
+				pc.printf("%s\n", line);
 
 		} else {
 			fprintf(fp, "%35s %s\n", "|", line);

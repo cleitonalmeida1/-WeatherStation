@@ -29,6 +29,7 @@ mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR \
 . \
 StateMachine \
 SHTx \
+ResultStateInjector \
 PowerControl \
 Logger \
 IAP \
